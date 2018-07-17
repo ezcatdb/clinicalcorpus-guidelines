@@ -1,0 +1,36 @@
+# Build settings
+
+source: .
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalinks: pretty
+# safe: true
+markdown_ext: md
+
+##############################################################################
+
+# Site settings
+
+name: "Enzyme guidelines"
+baseurl: "/Enzyme-guidelines"
+homeurl: "https://ezcatdb.github.io/Enzyme-guidelines/"
+editurl: "https://github.com/ezcatdb/Enzyme-guidelines/edit/master"
+issueurl: "https://github.com/ezcatdb/Enzyme-guidelines/issues"
+
+##############################################################################
+
+# Collection settings
+
+collections:
+  entity:
+    output: true
+  event:
+    output: true
+  relation:
+    output: true
+  attribute:
+    output: true
