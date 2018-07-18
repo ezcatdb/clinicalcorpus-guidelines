@@ -15,11 +15,11 @@ markdown_ext: md
 
 # Site settings
 
-name: "Enzyme guidelines"
-baseurl: "/Enzyme-guidelines"
-homeurl: "https://ezcatdb.github.io/Enzyme-guidelines/"
-editurl: "https://github.com/ezcatdb/Enzyme-guidelines/edit/master"
-issueurl: "https://github.com/ezcatdb/Enzyme-guidelines/issues"
+name: "Clinical corpus guidelines"
+baseurl: "/clinicalcorpus-guidelines"
+homeurl: "https://ezcatdb.github.io/clinicalcorpus-guidelines/"
+editurl: "https://github.com/ezcatdb/clinicalcorpus-guidelines/edit/master"
+issueurl: "https://github.com/ezcatdb/clinicalcorpus-guidelines/issues"
 
 ##############################################################################
 
