@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="page-content">
+      <div class="wrap">
+	<div class="entry">
+	  <header class="entry-header">
+	    <h1>{{ page.title }}{% if page.shortdef %}: {{ page.shortdef }}{% endif %}</h1>
+	  </header>
+	  <article class="entry-content">
+	  {{ content }}
+	  </article>
+	</div>
+      </div>
+    </div>
+  </body>
+
+<!-- support for embedded visualizations -->
+{% include embedding.html %}
+
+</html>
