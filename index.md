@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Enzyme reaction annotation guidelines
+title: annotation guidelines for clinical corpus
 ---
 
 ## Entities
