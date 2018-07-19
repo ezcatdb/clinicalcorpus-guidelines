@@ -1,6 +1,7 @@
 ---
 layout: entry
 title: "Disease"
+shortdef: "Diseases for lung"
 order: 2
 ---
 

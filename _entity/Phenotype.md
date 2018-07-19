@@ -1,6 +1,7 @@
 ---
 layout: entry
 title: "Phenotype"
+shortdef: "Phenotype for diseases"
 order: 1
 ---
 
