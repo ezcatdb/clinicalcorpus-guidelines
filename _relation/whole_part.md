@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "whole_part"
-order: 5
+order: 4
 ---
 
 This relation indicates the relationships between whole entity and its

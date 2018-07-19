@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "corresponds_to"
-order: 3
+order: 100
 ---
 
 This relation is similar to [is_equivalent]() and [coreference](), but

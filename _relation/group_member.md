@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "group_member"
-order: 4
+order: 3
 ---
 
 This relation describes relationships between a group and its members.
