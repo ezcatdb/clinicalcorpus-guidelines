@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: Enzyme reaction annotation guidelines
+title: Annotation guidelines for clinical corpus for lung diseases
 ---
 
 <h1 style="font-size:32px">Entities</h1>
@@ -13,8 +13,7 @@ title: Enzyme reaction annotation guidelines
 
 <h1 style="font-size:32px">Events</h1>
 
-The events can be categorized into reaction events and other events
-such as interactions, which will be described below.
+The events will be described below.
 
 {% assign sorted = site.event | sort: 'order' %}
 {% for i in sorted %}
@@ -40,7 +39,8 @@ Those relations are defined as follows:
 {{ i.content }}
 {% endfor %}
 
-<h1 style="font-size:32px">Speculation attributes and Certainty levels for Speculation cues</h1>
+<h1 style="font-size:32px">
+Speculation attributes and Certainty levels for Speculation cues</h1>
 
 {% assign sorted = site.attribute | sort: 'order' %}
 {% for i in sorted %}
