@@ -5,7 +5,7 @@ shortdef: "Diseases for lung"
 order: 2
 ---
 
-The definition of 'Disease' is based on ICD-11((<a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>), published by WHO.
+The definition of 'Disease' is based on <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
 
 Disease, which can be a group in phenotype, will be annotated in this category. 
 The following entities should be annotated as 'Disease'.

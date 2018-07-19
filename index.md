@@ -11,11 +11,13 @@ title: Annotation guidelines for clinical corpus
   - [Disease](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disease'" | first %}{{ i.shortdef }}
   - [Symptom](): {% assign i = site.entity | where_exp:"i", "i.title == 'Symptom'" | first %}{{ i.shortdef }}
   - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
+<!---
 - [Amino Acid](): {% assign i = site.entity | where_exp:"i", "i.title == 'Amino Acid'" | first %}{{ i.shortdef }}
 - [Cofactor](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cofactor'" | first %}{{ i.shortdef }}
 - [Functional Group](): {% assign i = site.entity | where_exp:"i", "i.title == 'Functional Group'" | first %}{{ i.shortdef }}
 - [Enzyme](): {% assign i = site.entity | where_exp:"i", "i.title == 'Enzyme'" | first %}{{ i.shortdef }}
 - [Other Compound](): {% assign i = site.entity | where_exp:"i", "i.title == 'Other Compound'" | first %}{{ i.shortdef }}
+--->
 - [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
 
 ## cues
@@ -32,7 +34,7 @@ title: Annotation guidelines for clinical corpus
 --->
 
 ## Events
-## enzyme reaction events
+<!---
 - [Whole Reaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Whole Reaction'" | first %}{{ i.shortdef }}
   - [Nucleophilic Attack](): {% assign i = site.event | where_exp:"i", "i.title == 'Nucleophilic Attack'" | first %}{{ i.shortdef }}
   - [Protonation](): {% assign i = site.event | where_exp:"i", "i.title == 'Protonation'" | first %}{{ i.shortdef }}
@@ -54,6 +56,7 @@ title: Annotation guidelines for clinical corpus
   - [Interaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Interaction'" | first %}{{ i.shortdef }}
   - [Release](): {% assign i = site.event | where_exp:"i", "i.title == 'Release'" | first %}{{ i.shortdef }}
   - [Conformational Change](): {% assign i = site.event | where_exp:"i", "i.title == 'Conformational Change'" | first %}{{ i.shortdef }}
+--->
 
 <!---
 {% assign sorted = site.event | sort: 'order' %}
@@ -71,7 +74,9 @@ title: Annotation guidelines for clinical corpus
 
 ## Attributes
 
+<!---
 {% assign sorted = site.attribute | sort: 'order' %}
 {% for i in sorted %}
 - [{{ i.title }}]({{ i.url | remove_first:'/' }}){% if i.shortdef %}: {{ i.shortdef }}{% endif %}
 {% endfor %}
+--->

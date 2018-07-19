@@ -10,6 +10,7 @@ The definition of 'Phenotype' includes words/phrases, which may suggest characte
 The following words/phrases can be annotated as 'Phenotype'.
 
 - fatal condition
+- survival
 
 ~~~ ann
 Idiopathic pulmonary fibrosis (IPF) is a fatal condition. 
