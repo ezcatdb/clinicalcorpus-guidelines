@@ -11,6 +11,9 @@ title: Annotation guidelines for clinical corpus
   - [Disease](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disease'" | first %}{{ i.shortdef }}
   - [Symptom](): {% assign i = site.entity | where_exp:"i", "i.title == 'Symptom'" | first %}{{ i.shortdef }}
   - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
+
+- [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
+
 <!---
 - [Amino Acid](): {% assign i = site.entity | where_exp:"i", "i.title == 'Amino Acid'" | first %}{{ i.shortdef }}
 - [Cofactor](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cofactor'" | first %}{{ i.shortdef }}
@@ -18,7 +21,6 @@ title: Annotation guidelines for clinical corpus
 - [Enzyme](): {% assign i = site.entity | where_exp:"i", "i.title == 'Enzyme'" | first %}{{ i.shortdef }}
 - [Other Compound](): {% assign i = site.entity | where_exp:"i", "i.title == 'Other Compound'" | first %}{{ i.shortdef }}
 --->
-- [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
 
 ## cues
 - [Negation Cue](): {% assign i = site.entity | where_exp:"i", "i.title == 'Negation Cue'" | first %}{{ i.shortdef }}
