@@ -18,7 +18,7 @@ The impact of IPF-related sleep breathing disorders (SBDs) on survival.
 T1 Disease 14 17 IPF
 T2 Symptom 26 51 sleep breathing disorders
 T3 Symptom 53 57 SBDs
-T4 Phenotype 62 71 survival
+T4 Phenotype 62 70 survival
 R1 is_eqivalent Arg1:T3 Arg2:T2
 ~~~
 
