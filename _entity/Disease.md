@@ -17,12 +17,13 @@ T3 Phenotype 41 56 fatal condition
 R1 is_eqivalent Arg1:T2 Arg2:T1
 ~~~
 
+
 The following words/phrases should be annotated as 'Disease'.
 
 <div style="margin:1em" markdown="1">
 
 | Disease name | ICD-11 code | ICD-11 description |
-|-----------------------------------------|---------------|------------------------------------------|
+|-------------------------------------|-------------|------------------------------------------|
 | lung cancer | 2C25 | Malignant neoplasms of bronchus or lung |
 | idiopathic pulmonary fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | IPF | CB03.4 | Idiopathic pulmonary fibrosis |
