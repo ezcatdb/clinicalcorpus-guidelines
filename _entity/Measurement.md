@@ -11,11 +11,17 @@ The definition of 'Measurement' for lung diseases may be mostly based on <a href
 The following words/phrases should be annotated as 'Measurement'.
 
 Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
-- Forced vital capacity
+- forced vital capacity
 - FVC
 
 Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">oxygen saturation</a>:
-- SpO2
+- oxygen saturation
+  - arterial oxygen saturation
+  - SaO2
+  - venous oxygen saturation
+  - SvO2
+  - peripheral oxygen saturation
+  - SpO2
 
 ~~~ ann
 IPF patients with a forced vital capacity (FVC) of 50-80%.
@@ -28,6 +34,13 @@ R2 value_of Arg1:T4 Arg2:T2
 ~~~
 
 The following word is not from Spirometry, but definitely 'Measurement'.
+- 6-min walk distance
 - 6MWD
+- 6-min walk test
+- 6MWT
+- cardiopulmonary exercise test
+- cardiac stress test
+- cardiac diagnostic test
+- CPX test
 
 <!-- details -->
