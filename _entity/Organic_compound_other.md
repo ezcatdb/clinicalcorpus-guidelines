@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Organic compound other"
+title: "Organic_compound_other"
 shortdef: "Organic Compound, including medicine"
 order: 5
 ---
