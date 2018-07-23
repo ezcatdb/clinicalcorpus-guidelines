@@ -2,7 +2,7 @@
 layout: entry
 title: "Entity Property"
 shortdef: "various technical terms for lung diseases"
-order: 5
+order: 100
 ---
 
 {% comment %}TODO: entity type introduction {% endcomment %}
