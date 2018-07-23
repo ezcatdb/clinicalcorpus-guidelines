@@ -9,7 +9,7 @@ The name of this entity group is based on the GENIA corpus.
 
 This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> database.
 
-Organic compounds, including medicines , are categorized into this entity group.
+Organic compounds, including medicines, are categorized into this entity group.
 
 ~~~ ann
 The alpha-phosphate of ATP.
