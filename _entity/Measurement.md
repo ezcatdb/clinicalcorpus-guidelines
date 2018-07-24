@@ -13,15 +13,26 @@ The following words/phrases should be annotated as 'Measurement'.
 Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - forced vital capacity
 - FVC
+- total lung capacity
+- TLC
+- Diffusing capacity
+- DLCO
+- peak oxygen consumption
+- Forced expiratory volume in 1 second
+- FEV1
+- FEV1/FVC ratio
+- FEV1%
 
-Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">oxygen saturation</a>:
-- oxygen saturation
-  - arterial oxygen saturation
-  - SaO2
-  - venous oxygen saturation
-  - SvO2
-  - peripheral oxygen saturation
-  - SpO2
+
+- Forced expiratory flow
+- FEF
+- maximal (mid-)expiratory flow
+- MMEF
+- MEF
+- Peak expiratory flow
+- PEF
+- Tidal volume
+- TV
 
 ~~~ ann
 IPF patients with a forced vital capacity (FVC) of 50-80%.
@@ -33,6 +44,16 @@ R1 is_eqivalent Arg1:T3 Arg2:T2
 R2 value_of Arg1:T4 Arg2:T2
 ~~~
 
+Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">oxygen saturation</a>:
+- oxygen saturation
+  - arterial oxygen saturation
+  - SaO2
+  - venous oxygen saturation
+  - SvO2
+  - peripheral oxygen saturation
+  - SpO2
+
+
 The following word is not from Spirometry, but definitely 'Measurement'.
 - 6-min walk distance
 - 6MWD
@@ -42,5 +63,9 @@ The following word is not from Spirometry, but definitely 'Measurement'.
 - cardiac stress test
 - cardiac diagnostic test
 - CPX test
+- maximal oxygen consumption
+- peak oxygen consumption
+- VO2 peak
+- VO2 max
 
 <!-- details -->
