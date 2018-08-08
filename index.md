@@ -38,7 +38,8 @@ title: Annotation guidelines for clinical corpus for lung diseases
 --->
 
 ## Events
-- [Whole Reaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Whole Reaction'" | first %}{{i.shortdef}}
+
+- [Whole Reaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Whole Reaction'" | first %}{{ i.shortdef }}
 
 
 <!---
