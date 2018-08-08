@@ -28,9 +28,11 @@ The following words/phrases should be annotated as 'Disease'.
 | IPF | CB03.4 | Idiopathic pulmonary fibrosis |
 | idiopathic interstitial pneumonia | CB03.Z | Idiopathic interstitial pneumonitis, unspecified |
 | bronchiolitis obliterans (syndrome) | CA26.Z | Chronic bronchiolitis, unspecified |
-| Pulmonary hypertension | BB01 | Pulmonary hypertension |
+| pulmonary hypertension | BB01 | Pulmonary hypertension |
 | chronic lung allograft dysfunction | -  | - |
 | restrictive allograft syndrome | -  | - |
+| lung adenocarcinoma | 2C25.0 | Adenocarcinoma of bronchus or lung |
+| non-small Cell Lung Cancer | 2C25.Y | Other specified malignant neoplasms of bronchus or lung |
 
 </div>
 

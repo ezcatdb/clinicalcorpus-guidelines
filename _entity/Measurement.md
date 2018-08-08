@@ -17,8 +17,7 @@ Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - TLC
 - Diffusing capacity
 - DLCO
-- peak oxygen consumption
-- Forced expiratory volume in 1 second
+- forced expiratory volume in 1 second
 - FEV1
 - FEV1/FVC ratio
 - FEV1%
@@ -29,9 +28,9 @@ Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - maximal (mid-)expiratory flow
 - MMEF
 - MEF
-- Peak expiratory flow
+- peak expiratory flow
 - PEF
-- Tidal volume
+- tidal volume
 - TV
 
 ~~~ ann
