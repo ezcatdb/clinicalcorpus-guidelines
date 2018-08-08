@@ -2,7 +2,7 @@
 layout: entry
 title: "Subject"
 shortdef: "Subjects for clinical trials, and patients"
-order: 5
+order: 7
 ---
 
 The name of this entity group is based on the PHAEDRA corpus.
