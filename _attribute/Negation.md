@@ -5,9 +5,9 @@ shortdef: "Negation for Events"
 order: 0
 ---
 
-The attribute for negation is for event triggers, which are negated.
+The attribute for negation is for event triggers that are negated.
 
-In the following case, the event trigger is combined with the Negation Cue:
+In the following case, the event trigger, which is combined with the Negation Cue, is negated, and indicated with a cross:
 ~~~ ann
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
