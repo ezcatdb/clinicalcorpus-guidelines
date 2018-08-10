@@ -29,6 +29,13 @@ T3 Disease 58 70 lung cancer
 E1 Surgery:T2 has_subject:T1
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
+~~~ ann
+Subjects who underwent lung resect.
+T1 Subject 0 8 Subjects
+T2 Surgery 23 34 lung resect
+E1 Surgery:T2 has_subject:T1
+~~~
+
 Arguments:
 The *has_subject* for this event must be [Subject]().
 
