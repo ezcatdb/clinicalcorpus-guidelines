@@ -47,8 +47,6 @@ title: Annotation guidelines for clinical corpus for lung diseases
 
 
 <!---
-
-
 - [Whole Reaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Whole Reaction'" | first %}{{ i.shortdef }}
   - [Nucleophilic Attack](): {% assign i = site.event | where_exp:"i", "i.title == 'Nucleophilic Attack'" | first %}{{ i.shortdef }}
   - [Protonation](): {% assign i = site.event | where_exp:"i", "i.title == 'Protonation'" | first %}{{ i.shortdef }}
@@ -87,6 +85,8 @@ title: Annotation guidelines for clinical corpus for lung diseases
 {% endfor %}
 
 ## Attributes
+
+- [Negation](): {% assign i = site.event | where_exp:"i", "i.title == 'Negation'" | first %}{{ i.shortdef }}
 
 <!---
 {% assign sorted = site.attribute | sort: 'order' %}
