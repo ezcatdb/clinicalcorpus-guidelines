@@ -14,6 +14,7 @@ events. The following words may be triggers of this event:
 - pneumonectomy
 - right pneumonectomy
 - left pneumonectomy
+- lung resect
 - segmentectomy
 - segmental resection
 - mastectomy
