@@ -1,6 +1,7 @@
 ---
 layout: entry
 title: "Subject_Disorder"
+shortdef: "relationships between subject and disorder (PHAEDRA)"
 order: 101
 ---
 

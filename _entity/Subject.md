@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Subject"
-shortdef: "Subjects for clinical trials, and patients"
+shortdef: "Subjects for clinical trials, and patients (PHAEDRA)"
 order: 7
 ---
 
