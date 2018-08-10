@@ -17,6 +17,14 @@ T2 Disease 31 34 IPF
 T3 Phenotype 41 56 fatal condition
 R1 is_eqivalent Arg1:T2 Arg2:T1
 ~~~
+~~~ ann
+A 40-year-old man had undergone right upper lobectomy for lung cancer.
+T1 Subject 2 17 40-year-old man
+T2 Surgery 32 53 right upper lobectomy
+T3 Disease 58 70 lung cancer
+E1 Surgery:T2 has_subject:T1
+R1 Subject_Disorder Arg1:T1 Arg2:T3
+~~~
 
 The following words/phrases should be annotated as 'Disease'.
 

@@ -29,8 +29,8 @@ T3 Disease 58 70 lung cancer
 E1 Surgery:T2 has_subject:T1
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
-
-The *Subject* for this event tends to be [Subject]().
+Arguments:
+The *has_subject* for this event must be [Subject]().
 
 <!---
 The *Theme* for this reaction event must be other reaction events.
