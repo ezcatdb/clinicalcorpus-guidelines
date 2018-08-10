@@ -1,22 +1,18 @@
 ---
 layout: entry
 title: "is_equivalent"
+shortdef: "Equivalent relations"
 order: 1
 ---
 
-Enzyme/compound formal name and its abbreviated names should be connected
-with this relation.
+Entity names and their abbreviated names should be connected with this relation.
 
 ~~~ ann
-Organophosphorus acid anhydride (OP) rapidly phosphonylate acetylcholinesterase (AChE).
-T1 OtherCompound 0 31 Organophosphorus acid anhydride
-T2 OtherCompound 33 35 OP
-T3 BondFormation 45 58 phosphonylate
-T4 Enzyme 59 79 acetylcholinesterase
-T5 Enzyme 81 85 AChE
-E1 BondFormation:T3 Agent:T1 Theme:T4
-R1 is_equivalent Arg1:T2 Arg2:T1
-R2 is_equivalent Arg1:T5 Arg2:T4
+Idiopathic pulmonary fibrosis (IPF) is a fatal condition. 
+T1 Disease 0 29 Idiopathic pulmonary fibrosis
+T2 Disease 31 34 IPF
+T3 Phenotype 41 56 fatal condition
+R1 is_eqivalent Arg1:T2 Arg2:T1
 ~~~
 
 <!-- details -->
