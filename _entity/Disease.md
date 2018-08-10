@@ -5,7 +5,8 @@ shortdef: "Diseases for lung"
 order: 2
 ---
 
-The definition of 'Disease' is based on <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
+The definition of 'Disease' is based on either 
+<a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> or <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
 
 Disease, which can be a group in phenotype, will be annotated in this category. 
 
@@ -21,18 +22,20 @@ The following words/phrases should be annotated as 'Disease'.
 
 <div style="margin:1em" markdown="1">
 
-| Disease name | ICD-11 code | ICD-11 description |
-|--------------------------------------|-------------|------------------------------------------|
-| lung cancer | 2C25 | Malignant neoplasms of bronchus or lung |
-| idiopathic pulmonary fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
-| IPF | CB03.4 | Idiopathic pulmonary fibrosis |
-| idiopathic interstitial pneumonia | CB03.Z | Idiopathic interstitial pneumonitis, unspecified |
-| bronchiolitis obliterans (syndrome) | CA26.Z | Chronic bronchiolitis, unspecified |
-| pulmonary hypertension | BB01 | Pulmonary hypertension |
-| chronic lung allograft dysfunction | -  | - |
-| restrictive allograft syndrome | -  | - |
-| lung adenocarcinoma | 2C25.0 | Adenocarcinoma of bronchus or lung |
-| non-small Cell Lung Cancer | 2C25.Y | Other specified malignant neoplasms of bronchus or lung |
+| Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
+|--------------------------------------|-------------|-------------|------------------------------------------|
+| lung cancer | C34 | Malignant neoplasm of bronchus and lung | 2C25 | Malignant neoplasms of bronchus or lung |
+| lung adenocarcinoma | - | - | 2C25.0 | Adenocarcinoma of bronchus or lung |
+| non-small cell lung cancer | - | - | 2C25.Y | Other specified malignant neoplasms of bronchus or lung |
+| idiopathic pulmonary fibrosis | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
+| IPF | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
+| idiopathic interstitial pneumonia | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.Z | Idiopathic interstitial pneumonitis, unspecified |
+| bronchiolitis obliterans (syndrome) | J44.8 | Other specified chronic obstructive pulmonary disease  | CA26.Z | Chronic bronchiolitis, unspecified |
+| pulmonary hypertension | I27.0, I27.2 | Primary pulmonary hypertension, Other secondary pulmonary hypertension | BB01 | Pulmonary hypertension |
+| chronic lung allograft dysfunction | - | - | - | - |
+| restrictive allograft syndrome | - | - | - | - |
+
+
 
 </div>
 
