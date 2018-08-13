@@ -8,7 +8,6 @@ order: 7
 The name of this entity group is based on the <a href="http://www.nactem.ac.uk/">PHAEDRA corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
 <!--
-This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> database.
 -->
 
 Patients, and subjects for clinical trials are categorized into this entity group.
@@ -35,7 +34,5 @@ T3 Subject 24 32 20 women
 R1 member_of Arg1:T2 Arg2:T1
 R2 member_of Arg1:T3 Arg2:T1
 ~~~
-
-
 
 <!-- details -->
