@@ -5,10 +5,10 @@ shortdef: "Value for Measurement etc."
 order: 5
 ---
 
-The definition of 'Value' is basically related to 'Measurement'.
+The definition of 'Value' is basically related to [Measurement]().
 
 
-The following is an example of 'Value' with its 'Measurement'.
+The following is an example of 'Value' with its [Measurement]().
 
 ~~~ ann
 IPF patients with a forced vital capacity (FVC) of 50-80%.
