@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Symptom"
-shortdef: "Symptoms for lung diseases"
+shortdef: "Symptoms for diseases"
 order: 3
 ---
 
