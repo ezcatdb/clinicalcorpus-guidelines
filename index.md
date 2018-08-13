@@ -89,7 +89,7 @@ title: Annotation guidelines for clinical corpus for lung diseases
 
 - [Negation](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negation'" | first %}{{ i.shortdef }}
 - [Speculation](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculation attributes'" | first %}{{ i.shortdef }}
-- [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty levels'" | first %}{{ i.shortdef }}
+  - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty levels'" | first %}{{ i.shortdef }}
 
 <!---
 {% assign sorted = site.attribute | sort: 'order' %}
