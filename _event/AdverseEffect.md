@@ -21,8 +21,11 @@ E1 AdverseEffect:T1 has_agent:T2 affects:T3 affects:T4
 ~~~
 
 Arguments:
+
 The *has_agent* for this event must be [Organic_compound_other](), [Medical treatment], [Administration]() or [Surgery]().
+
 The *has_subject* for this event must be [Subject]().
+
 The *affects* for this event must be [Disease]() or [Symptom]().
 
 <!---

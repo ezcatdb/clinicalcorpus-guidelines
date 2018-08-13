@@ -12,6 +12,8 @@ The following words/phrases should be annotated as 'Symptom'.
 
 - breathing disorder
   - sleep breathing disorder
+- rash
+- diarrhea
 
 ~~~ ann
 The impact of IPF-related sleep breathing disorders (SBDs) on survival.
@@ -21,5 +23,14 @@ T3 Symptom 53 57 SBDs
 T4 Phenotype 62 70 survival
 R1 is_equivalent Arg1:T3 Arg2:T2
 ~~~
+~~~ ann
+The common adverse effects of Icotinib were rash and diarrhea.
+T1 AdverseEffect 4 26 common adverse effects
+T2 Organic_compound_other 30 38 Icotinib
+T3 Symptom 44 48 rash
+T4 Symptom 53 61 diarrhea
+E1 AdverseEffect:T1 has_agent:T2 affects:T3 affects:T4
+~~~
+
 
 <!-- details -->
