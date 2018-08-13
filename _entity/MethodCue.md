@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Method Cue"
-shortdef: "Study/test types (cue for dignosis etc.)"
+shortdef: "Study/test types (cue for diagnosis etc.)"
 order: 9
 ---
 
