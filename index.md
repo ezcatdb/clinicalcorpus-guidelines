@@ -38,6 +38,7 @@ title: Annotation guidelines for clinical corpus for lung diseases
 --->
 
 ## Events
+- [Diagnosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
 - [Medical Treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical Treatment'" | first %}{{ i.shortdef }}
   - [Administration of medicine](): {% assign i = site.event | where_exp:"i", "i.title == 'Administration of medicine'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
