@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Certainty levels"
-shortdef: "Certaintly levels for Speculation"
+shortdef: "Certainty levels for Speculation"
 order: 2
 ---
 
