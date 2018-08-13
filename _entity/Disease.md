@@ -42,8 +42,8 @@ The following words/phrases should be annotated as 'Disease'.
 | pulmonary hypertension | I27.0, I27.2 | Primary pulmonary hypertension, Other secondary pulmonary hypertension | BB01 | Pulmonary hypertension |
 | chronic lung allograft dysfunction | - | - | - | - |
 | restrictive allograft syndrome | - | - | - | - |
-
-
+| Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
+| pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
 
 </div>
 
