@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Method Cue"
-shortdef: "Research types;experimental or computationnal ones"
+shortdef: "Study/test types (cue for dignosis etc.)"
 order: 9
 ---
 
@@ -14,13 +14,14 @@ Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 MethodCue 6 12 PET-CT
 T3 Diagnosis 17 26 diagnosed
 T4 Disease 27 43 liver metastases
-T5 Subject 51 64 two patients
+T5 Subject 51 63 two patients
 E1 Diagnosis:T3 Theme:T4 Cue:T1
 A1 Speculation E1
 A2 Certainty E1 Confirmed
+R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
 
-More concrete keywords are as follows:
+More concrete keywords for the cue are as follows:
 
 - Positron-emission tomography
 - PET

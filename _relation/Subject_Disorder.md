@@ -20,6 +20,7 @@ R1 is_equivalent Arg1:T3 Arg2:T2
 R2 value_of Arg1:T4 Arg2:T2
 R3 Subject_Disorder Arg1:T5 Arg2:T1
 ~~~
+
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
@@ -27,4 +28,16 @@ T2 Surgery 32 53 right upper lobectomy
 T3 Disease 58 70 lung cancer
 E1 Surgery:T2 has_subject:T1
 R1 Subject_Disorder Arg1:T1 Arg2:T3
+~~~
+
+~~~ ann
+Using PET-CT, we diagnosed liver metastases in the two patients.
+T1 MethodCue 6 12 PET-CT
+T3 Diagnosis 17 26 diagnosed
+T4 Disease 27 43 liver metastases
+T5 Subject 51 63 two patients
+E1 Diagnosis:T3 Theme:T4 Cue:T1
+A1 Speculation E1
+A2 Certainty E1 Confirmed
+R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
