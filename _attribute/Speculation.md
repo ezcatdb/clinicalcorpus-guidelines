@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Speculation attributes"
+title: "Speculation"
 shortdef: "Speculation attributes for events"
 order: 1
 ---

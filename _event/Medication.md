@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Administration of medicine"
+title: "Medication"
 category: medical treatment
 shortdef: "Administration of medicine in medical treatment"
 order: 2
