@@ -6,8 +6,8 @@ shortdef: "Surgery in medical treatment"
 order: 3
 ---
 
-This reaction event is very rare, and uncouples other reaction
-events. The following words may be triggers of this event:
+This event, surgery, is categorized into [Medical treatment]().
+The following words may be triggers of this event:
 
 - thoracotomy
 - lobectomy
@@ -26,7 +26,7 @@ A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
 T2 Surgery 32 53 right upper lobectomy
 T3 Disease 58 70 lung cancer
-E1 Surgery:T2 has_subject:T1
+E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
 ~~~ ann
@@ -38,6 +38,8 @@ E1 Surgery:T2 has_subject:T1
 
 Arguments:
 The *has_subject* for this event must be [Subject]().
+
+The *disorder* for this event must be [Disease]() or [Symptom].
 
 <!---
 The *Theme* for this reaction event must be other reaction events.
