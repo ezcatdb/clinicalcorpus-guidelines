@@ -40,11 +40,11 @@ title: Annotation guidelines for clinical corpus for lung diseases
 ## Events
 - [Diagnosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
 - [Medical Treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical Treatment'" | first %}{{ i.shortdef }}
-  - [Administration of medicine](): {% assign i = site.event | where_exp:"i", "i.title == 'Administration of medicine'" | first %}{{ i.shortdef }}
+  - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Administration of medicine'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
 - [Effects by Treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effects by treatment'" | first %}{{ i.shortdef }}
-  - [Potential therapeutic effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential therapeutic effect'" | first %}{{ i.shortdef }}
-  - [Adverse effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
+  - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential therapeutic effect'" | first %}{{ i.shortdef }}
+  - [AdverseEffect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
 
 <!---
