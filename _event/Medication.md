@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Medication"
-category: medical treatment
+category: "medical treatment"
 shortdef: "Administration of medicine in medical treatment"
 order: 2
 ---
@@ -12,7 +12,6 @@ The following words may be triggers of this event:
 
 - be dosed
 - administer
-- inoculate
 
 - chemotherapy
 - pharmacotherapy
@@ -27,6 +26,12 @@ T3 Value 25 35 600 mg/day
 E1 Medication:T2 has_agent:T1
 R1 value_of Arg1:T3 Arg2:T1
 ~~~
+--- ann
+Patients accepted chemotherapy.
+T1 Subject 0 8 Patients
+T2 Medication 18 31 chemotherapy
+E1 Medication:T2 has_subject:T1
+---
 
 
 Arguments:
