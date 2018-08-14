@@ -22,9 +22,23 @@ T4 Symptom 53 61 diarrhea
 E1 Adverse_effect:T1 has_agent:T2 affects:T3 affects2:T4
 ~~~
 
+The following words also can be triggers of this event:
+
+- induce
+- cause
+
+~~~ ann
+Chemotherapy-induced peripheral neuropathy.
+T1 Medication 0 12 Chemotherapy
+T2 Adverse_effect 13 20 induced
+T3 Symptom 21 42 peripheral neuropathy
+E1 Medication:T1
+E2 Adverse_effect:T2 has_agent:E1 disoder:T3
+~~~
+
 Arguments:
 
-The *has_agent* for this event must be [Organic_compound_other](), [Medical Treatment](), [Administration of medicine]() or [Surgery]().
+The *has_agent* for this event must be [Organic_compound_other](), [Medical Treatment](), [Medication]() or [Surgery]().
 
 The *has_subject* for this event must be [Subject]().
 
