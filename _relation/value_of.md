@@ -1,6 +1,7 @@
 ---
 layout: entry
 title: "value_of"
+shortdef: "Relationships of value with its related entity"
 order: 100
 ---
 
