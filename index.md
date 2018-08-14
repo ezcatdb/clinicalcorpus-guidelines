@@ -44,7 +44,7 @@ title: Annotation guidelines for clinical corpus for lung diseases
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
 - [Effects by Treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effects by treatment'" | first %}{{ i.shortdef }}
   - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential therapeutic effect'" | first %}{{ i.shortdef }}
-  - [AdverseEffect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
+  - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
 
 <!---
@@ -89,6 +89,7 @@ title: Annotation guidelines for clinical corpus for lung diseases
 
 - [Negation](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negation'" | first %}{{ i.shortdef }}
 - [Speculation](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculation attributes'" | first %}{{ i.shortdef }}
+
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty levels'" | first %}{{ i.shortdef }}
 
 <!---

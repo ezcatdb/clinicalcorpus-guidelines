@@ -2,13 +2,13 @@
 layout: entry
 title: "Adverse effect"
 category: "Effects by treatment"
-shortdef: "Adverse effect by medical treatment"
+shortdef: "Adverse effect by medical treatment (PHAEDRA)"
 order: 6
 ---
 
 This event is based on the <a href="http://www.nactem.ac.uk/">PHAEDRA corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
- The following words can be triggers of this event:
+The following words can be triggers of this event:
 
 - adverse effect
 - side effect
