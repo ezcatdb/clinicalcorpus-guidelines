@@ -6,7 +6,9 @@ shortdef: "Adverse effect by medical treatment"
 order: 6
 ---
 
- The following words may be triggers of this event:
+This event is based on the <a href="http://www.nactem.ac.uk/">PHAEDRA corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
+
+ The following words can be triggers of this event:
 
 - adverse effect
 - side effect
@@ -17,7 +19,7 @@ T1 Adverse_effect 4 26 common adverse effects
 T2 Organic_compound_other 30 38 Icotinib
 T3 Symptom 44 48 rash
 T4 Symptom 53 61 diarrhea
-E1 Adverse_effect:T1 has_agent:T2 affects:T3 affects:T4
+E1 Adverse_effect:T1 has_agent:T2 affects:T3 affects2:T4
 ~~~
 
 Arguments:
