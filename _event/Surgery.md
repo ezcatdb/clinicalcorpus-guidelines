@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Surgery"
-category: medical treatment
+category: "Medical treatment"
 shortdef: "Surgery in medical treatment"
 order: 3
 ---
