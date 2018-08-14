@@ -41,5 +41,6 @@ The following words/phrases are registered in <a href="http://apps.who.int/class
 | lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
 
 
+</div>
 
 <!-- details -->
