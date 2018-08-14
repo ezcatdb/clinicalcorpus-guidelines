@@ -14,6 +14,7 @@ The following words/phrases should be annotated as 'Symptom'.
   - sleep breathing disorder
 - rash
 - diarrhea
+- hematologic toxicity
 
 ~~~ ann
 The impact of IPF-related sleep breathing disorders (SBDs) on survival.

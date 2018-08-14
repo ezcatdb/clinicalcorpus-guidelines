@@ -11,6 +11,8 @@ The following words/phrases can be annotated as 'Phenotype'.
 
 - fatal condition
 - survival
+  - progression-free survival
+  - PFS
 
 ~~~ ann
 Idiopathic pulmonary fibrosis (IPF) is a fatal condition. 
