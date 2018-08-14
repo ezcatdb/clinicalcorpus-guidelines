@@ -39,7 +39,7 @@ The *has_subject* for this event must be [Subject]().
 
 The *has_agent* for this event must be medicine, which should be [Organic_compound_other]().
 
-The *disorder* for this event must be [Disease]() or [Symptom].
+The *disorder* for this event must be [Disease]() or [Symptom]().
 
 <!---
 The *Theme* for this reaction event must be other reaction events.
