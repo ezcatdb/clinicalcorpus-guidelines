@@ -32,5 +32,14 @@ T4 Symptom 53 61 diarrhea
 E1 Adverse_effect:T1 has_agent:T2 affects:T3 affects2:T4
 ~~~
 
+The following words/phrases are registered in <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> or <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
+
+<div style="margin:1em" markdown="1">
+
+| Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
+|--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
+| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
+
+
 
 <!-- details -->

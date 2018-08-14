@@ -31,10 +31,12 @@ The following words/phrases should be annotated as 'Disease'.
 <div style="margin:1em" markdown="1">
 
 | Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
-|--------------------------------------|-------------|-------------|------------------------------------------|
+|--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
 | lung cancer | C34 | Malignant neoplasm of bronchus and lung | 2C25 | Malignant neoplasms of bronchus or lung |
 | lung adenocarcinoma | - | - | 2C25.0 | Adenocarcinoma of bronchus or lung |
 | non-small cell lung cancer | - | - | 2C25.Y | Other specified malignant neoplasms of bronchus or lung |
+| multiple myeloma | C90.0 | Multiple myeloma | 2A83.1 | Plasma cell myeloma |
+| plasma cell myeloma | C90.0 | Multiple myeloma | 2A83.1 | Plasma cell myeloma |
 | idiopathic pulmonary fibrosis | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | IPF | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | idiopathic interstitial pneumonia | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.Z | Idiopathic interstitial pneumonitis, unspecified |
@@ -44,6 +46,8 @@ The following words/phrases should be annotated as 'Disease'.
 | restrictive allograft syndrome | - | - | - | - |
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
+
+
 
 </div>
 
