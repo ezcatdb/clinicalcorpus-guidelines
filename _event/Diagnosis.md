@@ -3,7 +3,7 @@ layout: entry
 title: "Diagnosis"
 category: 
 shortdef: "Diagnosis of disease"
-order: 3
+order: 0
 ---
 
 This event is for diagnosis of disease. 
