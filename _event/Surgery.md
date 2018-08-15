@@ -36,10 +36,17 @@ T2 Surgery 23 34 lung resect
 E1 Surgery:T2 has_subject:T1
 ~~~
 
+Medical endoscopic procedure can be categorized into this event.
+- argon plasma coagulation
+- APC
+
 Arguments:
+<div style="background-color: yellow" markdown="1">
 The *has_subject* for this event must be [Subject]().
 
 The *disorder* for this event must be [Disease]() or [Symptom].
+
+</div>
 
 <!---
 The *Theme* for this reaction event must be other reaction events.
