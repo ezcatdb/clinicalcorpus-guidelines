@@ -44,7 +44,7 @@ Arguments:
 <div style="background-color: yellow" markdown="1">
 The *has_subject* for this event must be [Subject]().
 
-The *disorder* for this event must be [Disease]() or [Symptom].
+The *disorder* for this event must be [Disease]() or [Symptom]().
 
 </div>
 
