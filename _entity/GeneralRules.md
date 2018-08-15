@@ -2,6 +2,7 @@
 layout: entry
 title: General rules for entities
 shortdef: "Entity rules"
+order: 0
 ---
 
 There are general rules for entities, as follows:

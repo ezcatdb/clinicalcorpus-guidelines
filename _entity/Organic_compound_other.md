@@ -2,7 +2,7 @@
 layout: entry
 title: "Organic_compound_other"
 shortdef: "Organic Compound, including medicine (GENIA)"
-order: 6
+order: 20
 ---
 
 The name of this entity group is based on the GENIA corpus.
