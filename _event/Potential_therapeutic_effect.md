@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Potential therapeutic effect"
+title: "Potential_therapeutic_effect"
 category: "Effects by treatment"
 shortdef: "Potential therapeutic effect by medical treatment (PHAEDRA)"
 order: 5

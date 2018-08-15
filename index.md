@@ -51,7 +51,7 @@ title: Annotation guidelines for clinical corpus for lung diseases
   - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Medication'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
 - [Effects by Treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effects by treatment'" | first %}{{ i.shortdef }}
-  - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential therapeutic effect'" | first %}{{ i.shortdef }}
+  - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
   - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
 <!---
