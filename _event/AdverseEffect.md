@@ -37,9 +37,9 @@ E2 Adverse_effect:T2 has_agent:E1 disoder:T3
 ~~~
 ~~~ ann
 We hypothesized that direct implantation might have led to metastasis.
-T1 SpeculationCue 3 15 hypothesized
+T1 Speculation_cue 3 15 hypothesized
 T2 Surgery 21 40 direct implantation
-T3 SpeculationCue 41 46 might
+T3 Speculation_cue 41 46 might
 T4 Adverse_effect 52 58 led to
 T5 Disease 59 69 metastasis
 E1 Surgery:T2 
