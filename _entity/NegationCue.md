@@ -10,13 +10,13 @@ Negation words, such as "not", can be combined with event expressions.
 ~~~ ann
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
-T2 NegationCue 16 19 not
+T2 Negation_cue 16 19 not
 T3 Surgery 28 39 lung resect
 E1 Surgery:T3 has_subject:T1 cue:T2
 A1 Negated E1
 ~~~
 
-However, even if the negation words can be identified as NegationCue, such cues are not always connected with event expressions.
+However, even if the negation words can be identified as Negation_cue, such cues are not always connected with event expressions.
 
 <!--
 
@@ -24,7 +24,7 @@ However, even if the negation words can be identified as NegationCue, such cues 
 A gem-diol intermediate, not an acyl enzyme.
 T1 FunctionalGroup 2 10 gem-diol
 T2 EntityProperty 2 23 gem-diol intermediate
-T3 NegationCue 25 28 not
+T3 Negation_cue 25 28 not
 T4 FunctionalGroup 32 36 acyl
 T5 Enzyme 37 43 enzyme
 T6 EntityProperty 32 43 acyl enzyme
