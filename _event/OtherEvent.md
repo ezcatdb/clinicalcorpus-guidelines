@@ -64,7 +64,7 @@ T7 Others 86 102 isotope exchange
 T8 MethodCue 106 132 site-directed mutagenesis
 E1 Interaction:T3 Agent:T2 Theme:T1 Cue:T4 Cue2:T5 Cue3:T6 Cue4:T8
 E2 Others:T7
-A1 Speculation E1
+A1 Speculated E1
 A2 Certainty E1 Confirmed
 ~~~
 
