@@ -15,6 +15,7 @@ The following words/phrases should be annotated as 'Symptom'.
 - rash
 - diarrhea
 - hematologic toxicity
+- pleural effusion
 
 ~~~ ann
 The impact of IPF-related sleep breathing disorders (SBDs) on survival.
@@ -40,7 +41,7 @@ The following words/phrases are registered in <a href="http://apps.who.int/class
 | Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
 |--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
 | lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
-
+| pleural effusion | - | - | CB27 | Pleural effusion |
 
 </div>
 
