@@ -30,7 +30,7 @@ A1 Negated E1
 
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
-T1 MethodCue 6 12 PET-CT
+T1 Method_cue 6 12 PET-CT
 T3 Diagnosis 17 26 diagnosed
 T4 Disease 27 43 liver metastases
 T5 Subject 51 63 two patients
