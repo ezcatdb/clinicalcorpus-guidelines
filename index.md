@@ -94,8 +94,8 @@ title: Annotation guidelines for clinical corpus for lung diseases
 
 ## Attributes
 
-- [Negation](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negation'" | first %}{{ i.shortdef }}
-- [Speculation](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculation'" | first %}{{ i.shortdef }}
+- [Negated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negated'" | first %}{{ i.shortdef }}
+- [Speculated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculaed'" | first %}{{ i.shortdef }}
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty'" | first %}{{ i.shortdef }}
 - [Gender_sbjct](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Gender_sbjct'" | first %}{{ i.shortdef }}
 
