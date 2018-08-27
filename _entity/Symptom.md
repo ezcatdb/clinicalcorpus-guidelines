@@ -20,6 +20,7 @@ The following words/phrases should be annotated as 'Symptom'.
 - chronic lung allograft dysfunction 
 - restrictive allograft syndrome 
 
+
 ~~~ ann
 The impact of IPF-related sleep breathing disorders (SBDs) on survival.
 T1 Disease 14 17 IPF
@@ -35,6 +36,16 @@ T2 Organic_compound_other 30 38 Icotinib
 T3 Symptom 44 48 rash
 T4 Symptom 53 61 diarrhea
 E1 Adverse_effect:T1 has_agent:T2 affects:T3 affects2:T4
+~~~
+
+- fatal condition
+
+~~~ ann
+Idiopathic pulmonary fibrosis (IPF) is a fatal condition. 
+T1 Disease 0 29 Idiopathic pulmonary fibrosis
+T2 Disease 31 34 IPF
+T3 Symptom 41 56 fatal condition
+R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~
 
 
