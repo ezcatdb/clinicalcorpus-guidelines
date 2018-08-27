@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Disease"
-shortdef: "Diseases for lung"
+shortdef: "Diseases"
 order: 2
 ---
 
@@ -42,10 +42,10 @@ The following words/phrases should be annotated as 'Disease'.
 | idiopathic interstitial pneumonia | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.Z | Idiopathic interstitial pneumonitis, unspecified |
 | bronchiolitis obliterans (syndrome) | J44.8 | Other specified chronic obstructive pulmonary disease  | CA26.Z | Chronic bronchiolitis, unspecified |
 | pulmonary hypertension | I27.0, I27.2 | Primary pulmonary hypertension, Other secondary pulmonary hypertension | BB01 | Pulmonary hypertension |
-| chronic lung allograft dysfunction | - | - | - | - |
-| restrictive allograft syndrome | - | - | - | - |
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
+| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
+| pleural effusion | - | - | CB27 | Pleural effusion |
 
 
 

@@ -5,8 +5,10 @@ shortdef: "Symptoms for diseases"
 order: 3
 ---
 
-The definition of 'Symptom' is based on <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
-
+The definition of 'Symptom' is 
+either "disorders" that are not registered in <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> nor <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, or 
+those ones that are registered in many categories of the disease databases.
+ 
 'Symptoms', which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Symptom'.
 
@@ -15,7 +17,8 @@ The following words/phrases should be annotated as 'Symptom'.
 - rash
 - diarrhea
 - hematologic toxicity
-- pleural effusion
+- chronic lung allograft dysfunction 
+- restrictive allograft syndrome 
 
 ~~~ ann
 The impact of IPF-related sleep breathing disorders (SBDs) on survival.
