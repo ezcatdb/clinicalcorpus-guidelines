@@ -1,16 +1,16 @@
 ---
 layout: entry
 title: "Subject"
-shortdef: "Subjects for clinical trials, and patients (PHAEDRA)"
+shortdef: "Subjects for clinical trials, patients, and experimental animals (PHAEDRA)"
 order: 7
 ---
 
-The name of this entity group is based on the <a href="http://www.nactem.ac.uk/">PHAEDRA corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
+The name of this entity group is based on the <a href="http://www.nactem.ac.uk/PHAEDRA/">PHAEDRA corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
 <!--
 -->
 
-Patients, and subjects for clinical trials are categorized into this entity group.
+Patients, and subjects for clinical trials, and experimental animals, such as mice, are categorized into this entity group.
 
 ~~~ ann
 Subjects who underwent lung resect.
@@ -33,6 +33,14 @@ T2 Subject 13 19 50 men
 T3 Subject 24 32 20 women
 R1 member_of Arg1:T2 Arg2:T1
 R2 member_of Arg1:T3 Arg2:T1
+~~~
+~~~ ann
+Bleomycin-induced pulmonary fibrosis in mice.
+T1 Organic_compound_other 0 9 Bleomycin
+T2 Adverse_effect 10 17 induced
+T3 Symptom 18 36 pulmonary fibrosis
+T4 Subject 40 44 mice
+E1 Adverse_effect:T2 has_agent:T1 has_subject:T4
 ~~~
 
 <!-- details -->
