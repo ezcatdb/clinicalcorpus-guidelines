@@ -26,6 +26,7 @@ The following words also can be triggers of this event:
 
 - induce
 - cause
+- lead to
 
 ~~~ ann
 Chemotherapy-induced peripheral neuropathy.
@@ -33,7 +34,7 @@ T1 Medication 0 12 Chemotherapy
 T2 Adverse_effect 13 20 induced
 T3 Symptom 21 42 peripheral neuropathy
 E1 Medication:T1
-E2 Adverse_effect:T2 has_agent:E1 disoder:T3
+E2 Adverse_effect:T2 has_agent:E1 affects:T3
 ~~~
 ~~~ ann
 We hypothesized that direct implantation might have led to metastasis.
@@ -54,6 +55,19 @@ The *has_agent* for this event must be [Organic_compound_other](), [Medical Trea
 The *has_subject* for this event must be [Subject]().
 
 The *affects* for this event must be [Disease]() or [Symptom]().
+
+
+Possible alternative annotation:
+
+~~~ ann
+The common adverse effects of Icotinib were rash and diarrhea.
+T1 Adverse_effect 4 26 common adverse effects
+T2 Organic_compound_other 30 38 Icotinib
+T3 Symptom 44 48 rash
+T4 Symptom 53 61 diarrhea
+E1 Adverse_effect:T1 has_agent:T2 affects:T3 
+E2 Adverse_effect:T1 has_agent:T2 affects:T4
+~~~
 
 <!---
 The *Theme* for this reaction event must be other reaction events.
