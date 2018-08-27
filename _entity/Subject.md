@@ -40,7 +40,7 @@ T1 Organic_compound_other 0 9 Bleomycin
 T2 Adverse_effect 10 17 induced
 T3 Symptom 18 36 pulmonary fibrosis
 T4 Subject 40 44 mice
-E1 Adverse_effect:T2 has_agent:T1 has_subject:T4
+E1 Adverse_effect:T2 has_agent:T1 has_subject:T4 affects:T3
 ~~~
 
 <!-- details -->
