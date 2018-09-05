@@ -6,10 +6,9 @@ order: 3
 ---
 
 The definition of 'Symptom' is 
-either "disorders" that are not registered in <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> nor <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, or 
-those ones that are registered in many categories of the disease databases.
+either "disorders" that are not registered in <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> nor <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, or those ones that are registered in many categories of the disease databases.
  
-'Symptoms', which can be a group in phenotype, will be annotated in this category. 
+'Symptom', which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Symptom'.
 
 - breathing disorder
@@ -17,8 +16,6 @@ The following words/phrases should be annotated as 'Symptom'.
 - rash
 - diarrhea
 - hematologic toxicity
-- chronic lung allograft dysfunction 
-- restrictive allograft syndrome 
 
 
 ~~~ ann
@@ -47,6 +44,11 @@ T2 Disease 31 34 IPF
 T3 Symptom 41 56 fatal condition
 R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~
+
+The following phrases are suspended for the time being.
+
+- chronic lung allograft dysfunction 
+- restrictive allograft syndrome 
 
 
 <!-- details -->

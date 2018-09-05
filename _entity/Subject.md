@@ -43,4 +43,5 @@ T4 Subject 40 44 mice
 E1 Adverse_effect:T2 has_agent:T1 has_subject:T4 affects:T3
 ~~~
 
+
 <!-- details -->

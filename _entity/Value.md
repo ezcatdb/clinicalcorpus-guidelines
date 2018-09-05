@@ -22,16 +22,6 @@ R2 value_of Arg1:T4 Arg2:T2
 R3 Subject_Disorder Arg1:T5 Arg2:T1
 ~~~
 
-The following is an example of 'Value' with its related other entity.
-
-~~~ ann
-Pirfenidone was dosed at 600 mg/day for the first 2 weeks.
-T1 Organic_compound_other 0 11 Pirfenidone
-T2 Medication 16 21 dosed
-T3 Value 25 35 600 mg/day
-E1 Medication:T2 has_agent:T1
-R1 value_of Arg1:T3 Arg2:T1
-~~~
 
 
 <!-- details -->
