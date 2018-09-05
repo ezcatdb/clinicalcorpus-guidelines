@@ -2,7 +2,7 @@
 layout: entry
 title: "Subject_Disorder"
 shortdef: "relationships between subject and disorder (PHAEDRA)"
-order: 101
+order: 110
 ---
 
 This relation indicates relationships of [Subject]() with its disorder, [Disease]() or [Symptom]().
