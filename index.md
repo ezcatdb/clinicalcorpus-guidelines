@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Annotation guidelines for clinical corpus for lung diseases
+title: Annotation Guidelines for Clinical Corpus for lung diseases
 ---
 
 ## Entities
