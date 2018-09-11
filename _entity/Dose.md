@@ -5,7 +5,7 @@ shortdef: "Dose for medicine"
 order: 41
 ---
 
-The definition of 'Dose' is basically related to [Organic_Compound_other]().
+The definition of 'Dose' is basically related to [Pharmacological_substance]().
 
 The following is an example of 'Dose' with its corresponding medicine.
 
