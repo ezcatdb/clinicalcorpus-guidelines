@@ -11,7 +11,7 @@ The following is an example of 'Dose' with its corresponding medicine.
 
 ~~~ ann
 Pirfenidone was dosed at 600 mg/day for the first 2 weeks.
-T1 Organic_compound_other 0 11 Pirfenidone
+T1 Pharmacological_substance 0 11 Pirfenidone
 T2 Medication 16 21 dosed
 T3 Dose 25 35 600 mg/day
 T4 Period 44 57 first 2 weeks

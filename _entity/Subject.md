@@ -36,7 +36,7 @@ R2 member_of Arg1:T3 Arg2:T1
 ~~~
 ~~~ ann
 Bleomycin-induced pulmonary fibrosis in mice.
-T1 Organic_compound_other 0 9 Bleomycin
+T1 Pharmacological_substance 0 9 Bleomycin
 T2 Adverse_effect 10 17 induced
 T3 Symptom 18 36 pulmonary fibrosis
 T4 Subject 40 44 mice
