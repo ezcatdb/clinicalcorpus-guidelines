@@ -2,7 +2,7 @@
 layout: entry
 title: "Dose"
 shortdef: "Dose for medicine"
-order: 31
+order: 41
 ---
 
 The definition of 'Dose' is basically related to [Organic_Compound_other]().

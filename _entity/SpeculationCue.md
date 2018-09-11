@@ -2,7 +2,7 @@
 layout: entry
 title: "Speculation Cue"
 shortdef: "speculation words and phrases"
-order: 8
+order: 108
 ---
 
 In addition to verbs, such as “suggest”, “show”, and “indicate”, the

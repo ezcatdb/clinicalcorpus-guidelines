@@ -2,7 +2,7 @@
 layout: entry
 title: "Value"
 shortdef: "Value for Measurement etc."
-order: 30
+order: 40
 ---
 
 The definition of 'Value' is basically related to [Measurement]().

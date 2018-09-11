@@ -2,7 +2,7 @@
 layout: entry
 title: "Negation Cue"
 shortdef: "negation words and phrases"
-order: 7
+order: 107
 ---
 
 Negation words, such as "not", can be combined with event expressions.

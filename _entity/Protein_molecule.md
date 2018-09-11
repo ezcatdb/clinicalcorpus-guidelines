@@ -2,12 +2,13 @@
 layout: entry
 title: "Protein_molecule"
 shortdef: "Protein molecule (GENIA)"
-order: 21
+order: 31
 ---
 
 The name of this entity group is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
-This entity is based on <a href="https://www.uniprot.org/">UniProt</a> database.
+This entity is based on 
+<a href="https://www.uniprot.org/">UniProt</a> database and <a href="https://pir.georgetown.edu/pro/"> PIR ontology</a>.
 
 Protein molecules, gene products, are categorized into this entity group.
 
