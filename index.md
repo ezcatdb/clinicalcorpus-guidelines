@@ -40,6 +40,7 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
 - [Value](): {% assign i = site.entity | where_exp:"i", "i.title == 'Value'" | first %}{{ i.shortdef }}
   - [Dose](): {% assign i = site.entity | where_exp:"i", "i.title == 'Dose'" | first %}{{ i.shortdef }}
   - [Period](): {% assign i = site.entity | where_exp:"i", "i.title == 'Period'" | first %}{{ i.shortdef }}
+
 - [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
 
 <!---
@@ -68,9 +69,13 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
 - [Medical treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
   - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Medication'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
+
+<!---
 - [Effect by treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effect by treatment'" | first %}{{ i.shortdef }}
-  - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
-  - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
+--->
+
+- [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
+- [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
 <!---
 - [Whole Reaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Whole Reaction'" | first %}{{ i.shortdef }}
