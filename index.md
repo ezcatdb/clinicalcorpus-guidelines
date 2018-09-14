@@ -20,8 +20,10 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
 
 - [Anatomical_entity](): {% assign i = site.entity | where_exp:"i", "i.title == 'Anatomical_entity'" | first %}{{ i.shortdef }}
 
+<!---
 - [Tissue_cultured](): {% assign i = site.entity | where_exp:"i", "i.title == 'Tissue_cultured'" | first %}{{ i.shortdef }}
 - [Tissue_natural](): {% assign i = site.entity | where_exp:"i", "i.title == 'Tissue_natural'" | first %}{{ i.shortdef }}
+--->
 
 - [Cell_cultured](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_cultured'" | first %}{{ i.shortdef }}
 - [Cell_natural](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_natural'" | first %}{{ i.shortdef }}
@@ -77,7 +79,7 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
 --->
 
 - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
-- [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
+- [Adverse_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
 <!---
 - [Whole Reaction](): {% assign i = site.event | where_exp:"i", "i.title == 'Whole Reaction'" | first %}{{ i.shortdef }}
