@@ -18,6 +18,7 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
   - [Ethnic_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'Ethnic_sbjct'" | first %}{{ i.shortdef }}
   - [History_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'History_sbjct'" | first %}{{ i.shortdef }}
 
+
 - [Anatomical_entity](): {% assign i = site.entity | where_exp:"i", "i.title == 'Anatomical_entity'" | first %}{{ i.shortdef }}
 
 <!---
