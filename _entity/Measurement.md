@@ -55,7 +55,7 @@ Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">ox
   - SpO2
 
 
-The following word is not from Spirometry, but definitely 'Measurement'.
+The following words/phrases are not from Spirometry, but definitely 'Measurement'.
 - 6-min walk distance
 - 6MWD
 - 6-min walk test
