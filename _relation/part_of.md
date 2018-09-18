@@ -7,7 +7,7 @@ order: 4
 
 This relation indicates the relationships between whole entity and its part.  
 
-Typical examples are [Cell_natural]() and its [Cell_component](), or [Protein_molecule]() and [Amino_acid_monomer]().
+Typical examples are [Cell]() and its [Cell_component](), or [Protein_molecule]() and [Amino_acid_monomer]().
 
 <!---
 {% include image.html name="whole-part-example.png" width="70%" %}
