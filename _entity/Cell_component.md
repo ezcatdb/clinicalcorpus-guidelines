@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Cell_component"
-shortdef: "cell components, including organella (GENIA)"
+shortdef: "Cell components, including organelle (GENIA)"
 order: 12
 ---
 
@@ -13,8 +13,8 @@ Cell ontlogy
 </a> and cellular component,
 <a href="http://amigo.geneontology.org/amigo/term/GO:0005575">
 GO:0005575
-</a> in 
-<a href="http://amigo.geneontology.org/">
+</a> from 
+<a href="http://geneontology.org/">
 Gene ontology
 </a>.
 
