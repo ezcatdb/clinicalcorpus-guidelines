@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Cell"
-shortdef: "cells"
+shortdef: "Cell types and cell lines"
 order: 11
 ---
 
