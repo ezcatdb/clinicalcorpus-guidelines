@@ -32,8 +32,8 @@ The following words/phrases are examples of this entity.
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
 T1 Cellular_process 0 18 Cellular crosstalk
-T2 Cell_natural 27 43 epithelial cells
-T3 Cell_natural 48 59 fibroblasts
+T2 Cell 27 43 epithelial cells
+T3 Cell 48 59 fibroblasts
 E1 Cellular_process:T1 Theme:T2 Theme2:T3
 ~~~
 
