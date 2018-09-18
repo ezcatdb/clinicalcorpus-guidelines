@@ -1,18 +1,18 @@
 ---
 layout: entry
-title: "Cell_natural"
-shortdef: "natural cell (GENIA)"
+title: "Cell"
+shortdef: "cell"
 order: 11
 ---
 
-The name of this entity group is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
+This entity group is based on Cell_natural and Cell_cultured in the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
 This entity is based on 
 <a href="https://www.ebi.ac.uk/ols/ontologies/cl">
 Cell ontlogy
 </a>.
 
-Natural cells are categorized into this entity group.
+'Cells' are categorized into this entity group.
 
 The following words/phrases are examples of this entity.
 - T lympohocytes

@@ -24,10 +24,12 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
 <!---
 - [Tissue_cultured](): {% assign i = site.entity | where_exp:"i", "i.title == 'Tissue_cultured'" | first %}{{ i.shortdef }}
 - [Tissue_natural](): {% assign i = site.entity | where_exp:"i", "i.title == 'Tissue_natural'" | first %}{{ i.shortdef }}
---->
+
 
 - [Cell_cultured](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_cultured'" | first %}{{ i.shortdef }}
-- [Cell_natural](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_natural'" | first %}{{ i.shortdef }}
+--->
+
+- [Cell](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell'" | first %}{{ i.shortdef }}
   - [Cell_component](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_component'" | first %}{{ i.shortdef }}
 
 - [Inorganic_compound](): {% assign i = site.entity | where_exp:"i", "i.title == 'Inorganic_compound'" | first %}{{ i.shortdef }}
