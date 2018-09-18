@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Cell"
-shortdef: "cell"
+shortdef: "cells"
 order: 11
 ---
 
