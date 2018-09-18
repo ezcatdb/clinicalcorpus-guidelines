@@ -1,22 +1,17 @@
 ---
 layout: entry
 title: "Cell_component"
-shortdef: "Cell components, including organelle (GENIA)"
+shortdef: "Cellular components, including organelle (GENIA)"
 order: 12
 ---
 
 The name of this entity group is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
 This entity is based on 
-<a href="https://www.ebi.ac.uk/ols/ontologies/cl">
-Cell ontlogy
-</a> and cellular component,
-<a href="http://amigo.geneontology.org/amigo/term/GO:0005575">
-GO:0005575
-</a> from 
-<a href="http://geneontology.org/">
-Gene ontology
-</a>.
+<a href="https://www.ebi.ac.uk/ols/ontologies/cl">Cell ontlogy</a> 
+and cellular component
+(<a href="http://amigo.geneontology.org/amigo/term/GO:0005575">GO:0005575</a>) from 
+<a href="http://geneontology.org/">Gene ontology</a>.
 
 'Cell component' is categorized into this entity group.
 
