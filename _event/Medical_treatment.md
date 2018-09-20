@@ -17,3 +17,11 @@ The following words/phrases can be triggers of this event:
 - Dialysis
   - Direct hemoperfusion (DHP)
 
+
+Arguments:
+
+The *has_subject* for this event must be [Subject]().
+
+The *disorder* for this event must be [Disease]() or [Symptom]().
+
+The *period* for this event must be [Period]().
