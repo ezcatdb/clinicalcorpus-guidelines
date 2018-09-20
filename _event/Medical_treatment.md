@@ -6,7 +6,8 @@ shortdef: "Other medical treatment"
 order: 1
 ---
 
-This event describes 'Medical treatment', which is neither categorized into 'Medication' nor 'Surgery'.
+This event describes 'Medical treatment', which is neither categorized into 'Medication' nor into 'Surgery'.
+
 
 The following words/phrases can be triggers of this event:
 
