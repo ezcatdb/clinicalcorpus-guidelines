@@ -11,7 +11,7 @@ This attribute includes four categories:
 - Male
 - Female
 - Both
-- Unknown
+- UNK (Unknown)
 
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
