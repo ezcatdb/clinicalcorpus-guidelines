@@ -29,7 +29,7 @@ E1 Medication:T2 has_agent:T1 dose:T3 period:T4
 ~~~ ann
 Patients accepted chemotherapy.
 T1 Subject 0 8 Patients
-T2 Medication 18 31 chemotherapy
+T2 Medication 18 3 chemotherapy
 E1 Medication:T2 has_subject:T1
 ~~~
 
