@@ -20,6 +20,7 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 
 
+
 - [Anatomical_entity](): {% assign i = site.entity | where_exp:"i", "i.title == 'Anatomical_entity'" | first %}{{ i.shortdef }}
 
 <!--
