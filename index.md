@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Annotation Guidelines for Clinical Corpus for lung diseases
+title: Annotation Guidelines for Clinical Corpus of lung diseases
 ---
 
 ## Entities
@@ -18,17 +18,19 @@ title: Annotation Guidelines for Clinical Corpus for lung diseases
   - [Ethnic_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'Ethnic_sbjct'" | first %}{{ i.shortdef }}
   - [History_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'History_sbjct'" | first %}{{ i.shortdef }}
 
+<!--
+- [Body_region](): {% assign i = site.entity | where_exp:"i", "i.title == 'Body_region'" | first %}{{ i.shortdef }}
+-->
 
 
 - [Anatomical_entity](): {% assign i = site.entity | where_exp:"i", "i.title == 'Anatomical_entity'" | first %}{{ i.shortdef }}
 
-<!---
+<!--
 - [Tissue_cultured](): {% assign i = site.entity | where_exp:"i", "i.title == 'Tissue_cultured'" | first %}{{ i.shortdef }}
 - [Tissue_natural](): {% assign i = site.entity | where_exp:"i", "i.title == 'Tissue_natural'" | first %}{{ i.shortdef }}
 
-
 - [Cell_cultured](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_cultured'" | first %}{{ i.shortdef }}
---->
+-->
 
 - [Cell](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell'" | first %}{{ i.shortdef }}
   - [Cell_component](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_component'" | first %}{{ i.shortdef }}
