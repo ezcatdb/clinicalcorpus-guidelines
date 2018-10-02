@@ -53,5 +53,19 @@ E1 Adverse_effect:T2 has_agent:T1 has_subject:T4 affects:T3
 R1 Subject_Disorder Arg1:T4 Arg2:T3
 ~~~
 
+~~~ ann
+Ten healthy volunteers took 200 mg itraconazole or matched placebo once daily for 4 days.
+T1 Subject 0 22 Ten healthy volunteers
+T2 Medication 23 27 took
+T3 Medication 23 27 took
+T4 Dose 28 34 200 mg
+T5 Pharmacological_substance 35 47 itraconazole
+T6 Pharmacological_substance 59 66 placebo
+T7 Frequency 67 77 once daily
+T8 Period 82 88 4 days
+E1 Medication:T2 has_subject:T1 has_agent:T5 dose:T4 period:T8 frequent:T7
+E2 Medication:T3 has_subject:T1 has_agent:T6 dose:T4 period:T8 frequent:T7
+~~~
+
 
 <!-- details -->

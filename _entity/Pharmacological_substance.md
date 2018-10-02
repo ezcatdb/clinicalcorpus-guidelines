@@ -29,5 +29,19 @@ T4 Symptom 53 61 diarrhea
 E1 Adverse_effect:T1 has_agent:T2 affects:T3 affects2:T4
 ~~~
 
+Although 'placebo' is not any medicine, this word can be tentatively categorized into this entity.
 
+~~~ ann
+Ten healthy volunteers took 200 mg itraconazole or matched placebo once daily for 4 days.
+T1 Subject 0 22 Ten healthy volunteers
+T2 Medication 23 27 took
+T3 Medication 23 27 took
+T4 Dose 28 34 200 mg
+T5 Pharmacological_substance 35 47 itraconazole
+T6 Pharmacological_substance 59 66 placebo
+T7 Frequency 67 77 once daily
+T8 Period 82 88 4 days
+E1 Medication:T2 has_subject:T1 has_agent:T5 dose:T4 period:T8 frequent:T7
+E2 Medication:T3 has_subject:T1 has_agent:T6 dose:T4 period:T8 frequent:T7
+~~~
 <!-- details -->
