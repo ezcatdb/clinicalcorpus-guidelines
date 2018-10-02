@@ -1,7 +1,7 @@
 ---
 layout: entry
-title: "Subject"
-shortdef: "Subjects for clinical trials, patients, and experimental animals (PHAEDRA)"
+title: "Age_Sbjct"
+shortdef: "Age of Subjects"
 order: 9
 ---
 
