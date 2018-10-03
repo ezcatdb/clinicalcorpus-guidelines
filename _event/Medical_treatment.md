@@ -6,7 +6,7 @@ shortdef: "Other medical treatment"
 order: 1
 ---
 
-This event describes 'Medical treatment', which is neither categorized into 'Medication' nor into 'Surgery'.
+This event describes 'Medical treatment', which is neither categorized into [Medication]() nor into [Surgery]().
 
 
 The following words/phrases can be triggers of this event:
@@ -26,4 +26,7 @@ The *has_subject* for this event must be [Subject]().
 The *disorder* for this event must be [Disease]() or [Symptom]().
 
 The *period* for this event must be [Period]().
+
+The *frequent* for this event must be [Frequency]().
+
 </div>

@@ -88,6 +88,10 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
 - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
+<!---
+--->
+
+- [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
 
 <!---
 {% assign sorted = site.event | sort: 'order' %}
