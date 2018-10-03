@@ -5,7 +5,7 @@ shortdef: "Frequency for medical treatment"
 order: 42
 ---
 
-The definition of 'Frequency' is basically related to [Medical_treatment]() and [Medication]().
+The definition of 'Frequency' is basically related to [Medical treatment]() and [Medication]().
 
 The following is an example of 'Frequency' with its corresponding medicine.
 

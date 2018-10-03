@@ -5,7 +5,7 @@ shortdef: "Period for medical treatment"
 order: 42
 ---
 
-The definition of 'Period' is basically related to [Medical_treatment]() and [Medication]().
+The definition of 'Period' is basically related to [Medical treatment]() and [Medication]().
 
 The following is an example of 'Period' with its corresponding medicine.
 

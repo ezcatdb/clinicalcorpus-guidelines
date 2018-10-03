@@ -10,6 +10,10 @@ The name of this entity group is based on the <a href="http://www.nactem.ac.uk/P
 This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> database.
 
 Medicines are categorized into this entity group.
+The following protein medicines can also be categorized in to this group.
+
+- Nivolumab
+- Tocilizumab
 
 ~~~ ann
 Pirfenidone was dosed at 600 mg/day for the first 2 weeks.
