@@ -1,10 +1,9 @@
 ---
 layout: entry
 title: "Age_Sbjct"
-shortdef: "Age of Subjects"
+shortdef: "Age of subjects"
 order: 9
 ---
-
 
 <!--
 -->
