@@ -21,6 +21,7 @@ T3 Disease 58 70 lung cancer
 T4 Age_sbjct 2 13 40-year-old
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
+R2 Subject_Attribute Arg1:T1 Arg2:T4
 A1 Gender_sbjct T1 Male
 ~~~
 ~~~ ann
@@ -34,6 +35,10 @@ T6 N_sbjct 24 26 20
 T7 Age_sbjct 34 50  mean age, 63.1 y
 R1 member_of Arg1:T2 Arg2:T1
 R2 member_of Arg1:T3 Arg2:T1
+R3 Subject_Attribute Arg1:T1 Arg2:T4
+R4 Subject_Attribute Arg1:T2 Arg2:T5
+R5 Subject_Attribute Arg1:T3 Arg2:T6
+R6 Subject_Attribute Arg1:T1 Arg2:T7
 A1 Gender_sbjct T1 Both
 A2 Gender_sbjct T2 Male
 A3 Gender_sbjct T3 Female
