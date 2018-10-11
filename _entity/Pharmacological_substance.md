@@ -48,5 +48,6 @@ T8 Period 82 88 4 days
 T9 N_sbjct 0 3 Ten
 E1 Medication:T2 has_subject:T1 has_agent:T5 dose:T4 period:T8 frequent:T7
 E2 Medication:T3 has_subject:T1 has_agent:T6 dose:T4 period:T8 frequent:T7
+R1 Subject_Attribute Arg1:T1 Arg2:T9
 ~~~
 <!-- details -->
