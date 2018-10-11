@@ -31,6 +31,7 @@ T4 Age_sbjct 2 13 40-year-old
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 R2 Subject_Attribute Arg1:T1 Arg2:T4
+A1 Gender_sbjct T1 Male
 ~~~
 
 ~~~ ann

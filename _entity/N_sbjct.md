@@ -5,7 +5,6 @@ shortdef: "Number of subjects"
 order: 8
 ---
 
-
 <!--
 -->
 
@@ -22,6 +21,10 @@ T6 N_sbjct 24 26 20
 T7 Age_sbjct 34 50  mean age, 63.1 y
 R1 member_of Arg1:T2 Arg2:T1
 R2 member_of Arg1:T3 Arg2:T1
+R3 Subject_Attribute Arg1:T1 Arg2:T4
+R4 Subject_Attribute Arg1:T2 Arg2:T5
+R5 Subject_Attribute Arg1:T3 Arg2:T6
+R6 Subject_Attribute Arg1:T1 Arg2:T7
 A1 Gender_sbjct T1 Both
 A2 Gender_sbjct T2 Male
 A3 Gender_sbjct T3 Female
@@ -41,6 +44,18 @@ T9 N_sbjct 0 3 Ten
 E1 Medication:T2 has_subject:T1 has_agent:T5 dose:T4 period:T8 frequent:T7
 E2 Medication:T3 has_subject:T1 has_agent:T6 dose:T4 period:T8 frequent:T7
 ~~~
-
+~~~ ann
+Using PET-CT, we diagnosed liver metastases in the two patients.
+T1 Method_cue 6 12 PET-CT
+T3 Diagnosis 17 26 diagnosed
+T4 Disease 27 43 liver metastases
+T5 Subject 51 63 two patients
+T6 N_sbjct 51 54 two
+E1 Diagnosis:T3 disorder:T4 has_subject:T5 cue:T1
+A1 Speculated E1
+A2 Certainty E1 Confirmed
+R1 Subject_Disorder Arg1:T5 Arg2:T4
+R1 Subject_Attribute Arg1:T5 Arg2:T6
+~~~
 
 <!-- details -->
