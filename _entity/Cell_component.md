@@ -2,7 +2,7 @@
 layout: entry
 title: "Cell_component"
 shortdef: "Cellular components, including organelle (GENIA)"
-order: 12
+order: 15
 ---
 
 The name of this entity group is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.

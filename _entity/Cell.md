@@ -2,7 +2,7 @@
 layout: entry
 title: "Cell"
 shortdef: "Cell types and cell lines"
-order: 11
+order: 14
 ---
 
 This entity group is based on Cell_natural and Cell_cultured in the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
