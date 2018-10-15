@@ -48,8 +48,10 @@ The following words/phrases should be annotated as 'Disease'.
 | pleural effusion | - | - | CB27 | Pleural effusion |
 
 
-
 </div>
 
+The following words, which indicate the ambiguous degree/state of disease, will be excluded from this entity.
+- advanced
+- severe
 
 <!-- details -->
