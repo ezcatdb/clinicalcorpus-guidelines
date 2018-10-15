@@ -44,8 +44,11 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
 ~~~ ann
 Squamous cell carcinoma of the lung invaded the right main bronchus.
 T1 Disease 0 23 Squamous cell carcinoma
-T2 Anatomy 31 35 lung
-T3 Anatomy 48 67 right main bronchus
+T2 Cell 0 13 Squamous cell
+T3 Anatomy 31 35 lung
+T4 Anatomy 48 67 right main bronchus
+T5 Biological_process 36 43 invaded
+E1 Biological_process:T5 Cause:T1 FromLoc:T3 ToLoc:T4
 ~~~
 
 - aorta
