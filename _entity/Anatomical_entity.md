@@ -48,7 +48,7 @@ T2 Cell 0 13 Squamous cell
 T3 Anatomical_entity 31 35 lung
 T4 Anatomical_entity 48 67 right main bronchus
 T5 Biological_process 36 43 invaded
-E1 Biological_process:T5 Cause:T1 FromLoc:T3 ToLoc:T4
+E1 Biological_process:T5 Cause:T1 fromLoc:T3 toLoc:T4
 ~~~
 
 - aorta
