@@ -22,7 +22,7 @@ E1 Surgery:T2 has_subject:T1
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
 T2 Surgery 32 53 right upper lobectomy
-T3 Disease 58 70 lung cancer
+T3 Disease 58 69 lung cancer
 T4 Age_sbjct 2 13 40-year-old
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
