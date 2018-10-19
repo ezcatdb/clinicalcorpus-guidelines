@@ -54,6 +54,8 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 - [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
 
+- [MENTION](): {% assign i = site.entity | where_exp:"i", "i.title == 'MENTION'" | first %}{{ i.shortdef }}
+
 <!---
 - [Amino Acid](): {% assign i = site.entity | where_exp:"i", "i.title == 'Amino Acid'" | first %}{{ i.shortdef }}
 - [Cofactor](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cofactor'" | first %}{{ i.shortdef }}
