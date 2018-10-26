@@ -6,7 +6,7 @@ order: 2
 ---
 
 The definition of 'Disease' is based on either 
-<a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> or <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
+<a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> published by WHO, although the coverage of <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> has been wider than ICD-10.
 
 Disease, which can be a group in phenotype, will be annotated in this category. 
 
@@ -22,8 +22,11 @@ A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
 T2 Surgery 32 53 right upper lobectomy
 T3 Disease 58 69 lung cancer
+T4 Age_sbjct 2 13 40-year-old
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
+R2 Subject_Attribute Arg1:T1 Arg2:T4
+A1 Gender_sbjct T1 Male
 ~~~
 
 The following words/phrases should be annotated as 'Disease'.
@@ -53,5 +56,12 @@ The following words/phrases should be annotated as 'Disease'.
 The following words, which indicate the ambiguous degree/state of disease, will be excluded from this entity.
 - advanced
 - severe
+
+Currently, the following words/phrases for stage of disease are tentatively annotated as [EntityProperty]().
+- stage I
+- stage II
+- stage IIIB
+- stage IV
+- stage IIIB/IV
 
 <!-- details -->
