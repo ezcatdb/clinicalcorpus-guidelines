@@ -57,7 +57,7 @@ The following words, which indicate the ambiguous degree/state of disease, will 
 - advanced
 - severe
 
-Currently, the following words/phrases for stage of disease are tentatively annotated as [EntityProperty]().
+Currently, the following words/phrases for stage of disease are tentatively annotated as [Entity Property]().
 - stage I
 - stage II
 - stage IIIB
