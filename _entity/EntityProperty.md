@@ -16,6 +16,7 @@ The following words/phrases can be tentatively annotated for this category.
 - stage II
 - stage IIIB
 - stage IV
+- stage IIIB/IV
 
 ~~~ ann
 stage I lung cancer
