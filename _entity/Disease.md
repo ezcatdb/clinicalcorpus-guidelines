@@ -47,9 +47,18 @@ The following words/phrases should be annotated as 'Disease'.
 | pulmonary hypertension | I27.0, I27.2 | Primary pulmonary hypertension, Other secondary pulmonary hypertension | BB01 | Pulmonary hypertension |
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
-| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
+
 | pleural effusion | - | - | CB27 | Pleural effusion |
 
+
+</div>
+
+The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M, may be annotated as [Symptom](). 
+<div style="margin:1em" markdown="1">
+
+| Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
+|--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
+| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
 
 </div>
 
