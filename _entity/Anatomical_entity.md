@@ -33,7 +33,7 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
   - pulmonary vein
   - alveolar sacs
   - alveolar duct
-  - connective tissu
+  - connective tissue
   - capillary beds
   - mucous gland
   - mucosal lining
