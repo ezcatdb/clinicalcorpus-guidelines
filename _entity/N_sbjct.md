@@ -56,7 +56,7 @@ E1 Diagnosis:T3 disorder:T4 has_subject:T5 cue:T1
 A1 Speculated E1
 A2 Certainty E1 Confirmed
 R1 Subject_Disorder Arg1:T5 Arg2:T4
-R1 Subject_Attribute Arg1:T5 Arg2:T6
+R2 Subject_Attribute Arg1:T5 Arg2:T6
 ~~~
 
 <!-- details -->
