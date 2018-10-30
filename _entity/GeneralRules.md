@@ -25,6 +25,7 @@ T1 Subject 2 17 40-year-old man
 T2 Surgery 32 53 right upper lobectomy
 T3 Disease 58 69 lung cancer
 T4 Age_sbjct 2 13 40-year-old
+T5 Anatomical_entity 58 62 lung
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 R2 Subject_Attribute Arg1:T1 Arg2:T4
@@ -35,6 +36,7 @@ The patient did not undergo lung resect.
 T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
 T3 Surgery 28 39 lung resect
+T4 Anatomical_entity 28 32 lung
 E1 Surgery:T3 has_subject:T1 cue:T2
 A1 Negated E1
 ~~~
@@ -44,6 +46,7 @@ A1 Negated E1
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Method_cue 6 12 PET-CT
+T2 Anatomical_entity 27 32 liver
 T3 Diagnosis 17 26 diagnosed
 T4 Disease 27 43 liver metastases
 T5 Subject 51 63 two patients
