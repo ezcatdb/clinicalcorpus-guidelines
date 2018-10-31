@@ -8,12 +8,12 @@ order: 0
 The top ranking of the priority for entities are as follows:
 - Disease
 - Symptom
-- Subject
+- Subject (without ontology DB)
 - Pharmacological substance
 - Anatomical entity
 - Cell
 - Protein molecule (as biomarker)
-
+- Measurement (without ontology DB)
 
 There are general rules for entities, as follows:
 
