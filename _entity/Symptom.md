@@ -5,19 +5,23 @@ shortdef: "Symptoms for diseases"
 order: 3
 ---
 
-The definition of 'Symptom' is 
-either "disorders" that are neither registered in <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> nor <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, or those ones that are registered in many categories of the disease databases, or those ones, whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M.
+The definition of 'Symptom' is as follows: 
+- "disorders" that are neither registered in <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> nor <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, 
+- "disorders" that are registered in many categories of the disease databases, ICD-10 or ICD-11,
+- "disorders", whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M.
 
 <div style="background-color: pink" markdown="1">
 The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M, can be annotated in this entity. 
+</div>
 <div style="margin:1em" markdown="1">
 
 | Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
 |--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
 | lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
 | allodynia | - | - | MB40.1 | Allodynia |
+
 </div>
-</div>
+
 
 'Symptom', which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Symptom'.
