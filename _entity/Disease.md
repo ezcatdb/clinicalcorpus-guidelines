@@ -66,6 +66,8 @@ T1 Disease 20 72 acute exacerbations of idiopathic pulmonary fibrosis
 T2 Disease 43 72 idiopathic pulmonary fibrosis
 T3 Disease 74 80 AE-IPF
 T4 Disease 77 80 IPF
+R1 is_equivalent arg1:T3 arg2:T1
+R2 is_equivalent arg1:T4 arg2:T2
 ~~~
 
 
