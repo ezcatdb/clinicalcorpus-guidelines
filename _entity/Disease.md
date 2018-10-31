@@ -81,6 +81,7 @@ The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs 
 | Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
 |--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
 | lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
+| allodynia | - | - | MB40.1 | Allodynia |
 
 </div>
 
