@@ -58,7 +58,7 @@ The following words/phrases should be annotated as 'Disease'.
 </div>
 
 <div style="background-color: yellow" markdown="1">
-Although the following words/phrases are neither in ICD-10 nor ICD-11, they can also be disease entities, as they are widely used as disease names:
+Some disease names start with 'AE (acute exacerbation)'. Although the following words/phrases are neither in ICD-10 nor in ICD-11, they can also be disease entities as they are widely used as disease names:
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
