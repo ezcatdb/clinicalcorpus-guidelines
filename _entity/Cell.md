@@ -10,6 +10,9 @@ This entity group is based on Cell_natural and Cell_cultured in the <a href="htt
 This entity is based on 
 <a href="https://www.ebi.ac.uk/ols/ontologies/cl">
 Cell ontlogy
+</a> or 
+<a href="https://www.ebi.ac.uk/ols/ontologies/clo">
+Cell line ontology
 </a>.
 
 'Cells' are categorized into this entity group.
