@@ -36,17 +36,17 @@ The following words/phrases are examples of this entity.
 
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
-T1 Cellular_process 0 18 Cellular crosstalk
+T1 Biological_process 0 18 Cellular crosstalk
 T2 Cell 27 43 epithelial cells
 T3 Cell 48 59 fibroblasts
-E1 Cellular_process:T1 Theme:T2 Theme2:T3
+E1 Biological_process:T1 Theme:T2 Theme2:T3
 ~~~
 ~~~ann
 T cell blasts were treated with PMA.
 T1 Cell 0 13 T cell blasts
-T2 Artificial_process 19 26 treated
+T2 Other_event 19 26 treated
 T3 Organic_compound_other 32 35 PMA
-E1 Artificial_process:T2 Theme:T1 Theme2:T3
+E1 Other_event:T2 Theme:T1 Theme2:T3
 ~~~
 
 
