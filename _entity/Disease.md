@@ -5,8 +5,8 @@ shortdef: "Diseases"
 order: 2
 ---
 
-The definition of 'Disease' is based on either 
-<a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> published by WHO, although the coverage of <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> has been wider than ICD-10.
+The definition of 'Disease' is based on <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> published by WHO,
+although <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> has been more widely used than ICD-11.
 
 Disease, which can be a group in phenotype, will be annotated in this category. 
 
@@ -48,9 +48,16 @@ The following words/phrases should be annotated as 'Disease'.
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
 | pleural effusion | - | - | CB27 | Pleural effusion |
-
+| chronic obstructive pulmonary disease | - | - | CA22 | Chronic obstructive pulmonary disease |
+| COPD | - | - | CA22 | Chronic obstructive pulmonary disease |
+| acute exacerbation of chronic obstructive pulmonary disease | - | - | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
+| AECOPD | - | - | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
 
 </div>
+
+Although the following words/phrases are neither in ICD-10 nor ICD-11, they can also be disease entities, as they are widely used as disease names:
+- acute exacerbation of idiopathic pulmonary fibrosis
+- AE-IPF
 
 The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M, may be annotated as [Symptom](). 
 <div style="margin:1em" markdown="1">
