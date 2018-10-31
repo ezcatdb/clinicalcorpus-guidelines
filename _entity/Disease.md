@@ -60,6 +60,13 @@ Although the following words/phrases are neither in ICD-10 nor ICD-11, they can 
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
+~~~ ann
+The pathogenesis of acute exacerbations of idiopathic pulmonary fibrosis (AE-IPF)
+T1 Disease 20 72 acute exacerbations of idiopathic pulmonary fibrosis
+T2 Disease 43 72 idiopathic pulmonary fibrosis
+T3 Disease 74 80 AE-IPF
+T4 Disease 77 80 IPF
+~~~
 
 
 The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M, may be annotated as [Symptom](). 
