@@ -40,25 +40,29 @@ The following words/phrases should be annotated as 'Disease'.
 | non-small cell lung cancer | - | - | 2C25.Y | Other specified malignant neoplasms of bronchus or lung |
 | multiple myeloma | C90.0 | Multiple myeloma | 2A83.1 | Plasma cell myeloma |
 | plasma cell myeloma | C90.0 | Multiple myeloma | 2A83.1 | Plasma cell myeloma |
+| chronic obstructive pulmonary disease | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
+| COPD | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
+| acute exacerbation of chronic obstructive pulmonary disease | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
+| bronchiolitis obliterans (syndrome) | J44.8 | Other specified chronic obstructive pulmonary disease  | CA26.Z | Chronic bronchiolitis, unspecified |
 | idiopathic pulmonary fibrosis | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | IPF | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | idiopathic interstitial pneumonia | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.Z | Idiopathic interstitial pneumonitis, unspecified |
-| bronchiolitis obliterans (syndrome) | J44.8 | Other specified chronic obstructive pulmonary disease  | CA26.Z | Chronic bronchiolitis, unspecified |
+| interstitial lung disease | J84.9 | Interstitial pulmonary disease, unspecified | CB0? | Respiratory diseases principally affecting the lung interstitium |
 | pulmonary hypertension | I27.0, I27.2 | Primary pulmonary hypertension, Other secondary pulmonary hypertension | BB01 | Pulmonary hypertension |
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
 | pleural effusion | - | - | CB27 | Pleural effusion |
-| chronic obstructive pulmonary disease | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
-| COPD | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
-| acute exacerbation of chronic obstructive pulmonary disease | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
 | AECOPD | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
-| interstitial lung disease | J84.9 | Interstitial pulmonary disease, unspecified | - | - |
+
 
 </div>
 
+<div style="background-color: yellow" markdown="1">
 Although the following words/phrases are neither in ICD-10 nor ICD-11, they can also be disease entities, as they are widely used as disease names:
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
+
+</div>
 
 ~~~ ann
 The pathogenesis of acute exacerbations of idiopathic pulmonary fibrosis (AE-IPF)
@@ -80,7 +84,7 @@ The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs 
 
 </div>
 
-The following words, which indicate the ambiguous degree/state of disease, will be excluded from this entity.
+The following words, which indicate the ambiguous degree/state of disease, are currently excluded from this entity, although they should be considered.
 - advanced
 - severe
 
