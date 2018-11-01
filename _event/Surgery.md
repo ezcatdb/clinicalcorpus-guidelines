@@ -36,7 +36,8 @@ A1 Gender_sbjct T1 Male
 Subjects who underwent lung resect.
 T1 Subject 0 8 Subjects
 T2 Surgery 23 34 lung resect
-E1 Surgery:T2 has_subject:T1
+T3 Anatomical_entity 23 27 lung
+E1 Surgery:T2 has_subject:T1 occurs_at:T3
 ~~~
 
 Medical endoscopic procedure can be categorized into this event.
@@ -47,7 +48,11 @@ Arguments:
 <div style="background-color: yellow" markdown="1">
 The *has_subject* for this event must be [Subject]().
 
-The *disorder* for this event must be [Disease]() or [Symptom]().
+The *disorder* for this event must be [Disease](), [Symptom]() or [Phenotype]().
+
+The *occurs_at* for this event must be [Anatomical_entity](), [Cell]() or [Entity_Property]().
+
+The *has_cue* for this event must be [Negation](), [Speculation_cue]() or [Method_cue]().
 
 </div>
 

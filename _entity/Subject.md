@@ -15,8 +15,9 @@ Patients, and subjects for clinical trials, and experimental animals, such as mi
 ~~~ ann
 Subjects who underwent lung resect.
 T1 Subject 0 8 Subjects
-T2 Surgery 23 34 lung resect
-E1 Surgery:T2 has_subject:T1
+T2 Surgery 28 34 resect
+T3 Anatomical_entity 23 27 lung
+E1 Surgery:T2 has_subject:T1 theme:T3
 ~~~
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
@@ -24,6 +25,7 @@ T1 Subject 2 17 40-year-old man
 T2 Surgery 32 53 right upper lobectomy
 T3 Disease 58 69 lung cancer
 T4 Age_sbjct 2 13 40-year-old
+T5 Anatomical_entity 58 62 lung
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 R2 Subject_Attribute Arg1:T1 Arg2:T4
@@ -77,11 +79,14 @@ R1 Subject_Attribute Arg1:T1 Arg2:T9
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Method_cue 6 12 PET-CT
+T2 Anatomical_entity 27 32 liver
 T3 Diagnosis 17 26 diagnosed
 T4 Disease 27 43 liver metastases
 T5 Subject 51 63 two patients
 T6 N_sbjct 51 54 two
+T7 Biological_process 33 43 metastases
 E1 Diagnosis:T3 disorder:T4 has_subject:T5 cue:T1
+E2 Biological_process:T7 toLoc:T2
 A1 Speculated E1
 A2 Certainty E1 Confirmed
 R1 Subject_Disorder Arg1:T5 Arg2:T4

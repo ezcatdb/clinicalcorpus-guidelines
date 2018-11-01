@@ -12,7 +12,8 @@ The patient did not undergo lung resect.
 T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
 T3 Surgery 28 39 lung resect
-E1 Surgery:T3 has_subject:T1 cue:T2
+T4 Anatomical_entity 28 32 lung
+E1 Surgery:T3 has_subject:T1 occurs_at:T4 has_cue:T2
 A1 Negated E1
 ~~~
 
