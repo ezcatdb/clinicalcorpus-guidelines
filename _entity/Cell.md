@@ -39,7 +39,7 @@ Cellular crosstalk between epithelial cells and fibroblasts.
 T1 Biological_process 0 18 Cellular crosstalk
 T2 Cell 27 43 epithelial cells
 T3 Cell 48 59 fibroblasts
-E1 Biological_process:T1 Theme:T2 Theme2:T3
+E1 Biological_process:T1 Participant:T2 Participant2:T3
 ~~~
 ~~~ann
 T cell blasts were treated with PMA.

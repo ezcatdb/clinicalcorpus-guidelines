@@ -44,13 +44,19 @@ A2 Certainty E1 Confirmed
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 R2 Subject_Attribute Arg1:T5 Arg2:T6
 ~~~
-
+~~~ ann
+Cellular crosstalk between epithelial cells and fibroblasts.
+T1 Biological_process 0 18 Cellular crosstalk
+T2 Cell 27 43 epithelial cells
+T3 Cell 48 59 fibroblasts
+E1 Biological_process:T1 Participant:T2 Participant2:T3
+~~~
 
 Arguments:
 
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
-The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities.
+The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities or events.
 
 
 <!--details-->

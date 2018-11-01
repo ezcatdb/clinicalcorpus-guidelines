@@ -93,11 +93,14 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
 - <a href="https://en.wikipedia.org/wiki/Pulmonary_pleurae">pulmonary pleurae</a>
 - parietal pleura
 
+
+The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>.
+
 - aorta
   - ascending aorta
   - descending aorta
 - artery
-- vena cava
+- 'vena cava' or 'venae cavae'
   - inferior vena cava
   - superior vena cava
 - vein
