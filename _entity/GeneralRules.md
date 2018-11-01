@@ -6,14 +6,14 @@ order: 0
 ---
 
 The top ranking of the priority for entities are as follows:
-- Disease
-- Symptom
-- Subject (without ontology DB)
-- Pharmacological substance
-- Anatomical entity
-- Cell
-- Protein molecule (as biomarker)
-- Measurement (without ontology DB)
+- [Disease]()
+- [Symptom]()
+- [Subject]() (without ontology DB)
+- [Pharmacological_substance]()
+- [Anatomical_entity]()
+- [Cell]()
+- [Protein_molecule]() (as biomarker)
+- [Measurement]() (without ontology DB)
 
 There are general rules for entities, as follows:
 
@@ -51,7 +51,9 @@ T3 Diagnosis 17 26 diagnosed
 T4 Disease 27 43 liver metastases
 T5 Subject 51 63 two patients
 T6 N_sbjct 51 54 two
+T7 Biological_process 33 43 metastases
 E1 Diagnosis:T3 disorder:T4 has_subject:T5 cue:T1
+E2 Biological_process:T7 toLoc:T2
 A1 Speculated E1
 A2 Certainty E1 Confirmed
 R1 Subject_Disorder Arg1:T5 Arg2:T4
