@@ -115,6 +115,7 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 - [Speculated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculated'" | first %}{{ i.shortdef }}
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty'" | first %}{{ i.shortdef }}
 - [Gender_sbjct](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Gender_sbjct'" | first %}{{ i.shortdef }}
+- [MutantAttribute](): {% assign i = site.attribute | where_exp:"i", "i.title == 'MutantAttribute'" | first %}{{ i.shortdef }}
 
 <!--
 {% assign sorted = site.attribute | sort: 'order' %}

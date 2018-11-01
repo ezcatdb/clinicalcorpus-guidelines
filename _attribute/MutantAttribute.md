@@ -5,7 +5,7 @@ shortdef: "Attribute for Protein_molecule, DNA_molecule or RNA_molecule"
 order: 10
 ---
 
-The attribute for [Protein_molecule](), [DNA_molecule](), or [RNA_molecule], [MutantAttribute](), should be 'mutant', if these molecules are mutant.
+The attribute for [Protein_molecule](), [DNA_molecule](), or [RNA_molecule](), 'MutantAttribute', should be 'mutant', if these molecules are mutant.
 
 
 ~~~ ann
