@@ -31,4 +31,17 @@ R2 is_equivalent Arg1:T4 Arg2:T3
 R3 is_equivalent Arg1:T6 Arg2:T5
 ~~~
 
+In the case of mutant information, mutation info should be annotated with protein name. 
+Moreover, the attribute for [Protein_molecule](), [MutantAttribute](), should be 'mutant' instead of 'wild-type'.
+
+~~~ ann
+Infulence of methylenetetrahydrofolate reductase C677T polymorphism on the risk of lung cancer
+T1 Protein_molecule 13 54 methylenetetrahydrofolate reductase C677T
+T2 Biological_process 55 67 polymorphism
+T3 Disease 83 94 lung cancer
+T4 Anatomical_entity 83 87 lung
+E1 Biological_process:T2 Product:T1
+A1 MutantAttribute T1 mutant
+~~~
+
 <!-- details -->
