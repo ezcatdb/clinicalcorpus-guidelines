@@ -51,6 +51,18 @@ T2 Cell 27 43 epithelial cells
 T3 Cell 48 59 fibroblasts
 E1 Biological_process:T1 Participant:T2 Participant2:T3
 ~~~
+~~~ ann
+Accumulation of damaged mitochondria in lung epithelial cells.
+T1 Biological_process 0 12 Accumulation
+T2 Biological_process 16 23 damaged
+T3 Cell_component 24 36 mitochondria
+T4 Cell 40 61 lung epithelial cells
+T5 Anatomical_entity 40 44 lung
+E1 Biological_process:T1 Theme:E2 atLoc:T4
+E2 Biological_process:T2 Theme:T3
+R1 part_of Arg1:T3 Arg2:T4
+R1 part_of Arg1:T4 Arg2:T5
+~~~
 
 Arguments:
 

@@ -52,7 +52,7 @@ T4 Disease 27 43 liver metastases
 T5 Subject 51 63 two patients
 T6 N_sbjct 51 54 two
 T7 Biological_process 33 43 metastases
-E1 Diagnosis:T3 disorder:T4 has_subject:T5 cue:T1
+E1 Diagnosis:T3 disorder:T4 has_subject:T5 has_cue:T1
 E2 Biological_process:T7 toLoc:T2
 A1 Speculated E1
 A2 Certainty E1 Confirmed
