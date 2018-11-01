@@ -15,9 +15,9 @@ Patients, and subjects for clinical trials, and experimental animals, such as mi
 ~~~ ann
 Subjects who underwent lung resect.
 T1 Subject 0 8 Subjects
-T2 Surgery 28 34 resect
+T2 Surgery 23 34 lung resect
 T3 Anatomical_entity 23 27 lung
-E1 Surgery:T2 has_subject:T1 theme:T3
+E1 Surgery:T2 has_subject:T1 occurs_at:T3
 ~~~
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.

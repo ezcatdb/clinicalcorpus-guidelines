@@ -10,6 +10,8 @@ order: 8
 
 The number of patients, and subjects for clinical trials, and experimental animals, such as mice, is categorized into this entity group.
 
+This entity can be connected with [Subject]() by [Subject_Attribute]().
+
 ~~~ ann
 70 subjects (50 men and 20 women; mean age, 63.1 y)
 T1 Subject 0 11 70 subjects
@@ -48,11 +50,14 @@ R1 Subject_Attribute Arg1:T1 Arg2:T9
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Method_cue 6 12 PET-CT
+T2 Anatomical_entity 27 32 liver
 T3 Diagnosis 17 26 diagnosed
 T4 Disease 27 43 liver metastases
 T5 Subject 51 63 two patients
 T6 N_sbjct 51 54 two
+T7 Biological_process 33 43 metastases
 E1 Diagnosis:T3 disorder:T4 has_subject:T5 cue:T1
+E2 Biological_process:T7 toLoc:T2
 A1 Speculated E1
 A2 Certainty E1 Confirmed
 R1 Subject_Disorder Arg1:T5 Arg2:T4
