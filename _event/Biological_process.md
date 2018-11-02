@@ -72,6 +72,19 @@ T4 Anatomical_entity 83 87 lung
 E1 Biological_process:T2 Product:T1
 A1 MutantAttribute T1 mutant
 ~~~
+~~~ ann
+Studies on MTHFR C677T polymorphism and lung cancer ... The C677T porpmorphism was correlated with a risk of NSCLC.
+T1 Protein_molecule 11 22 MTHFR C677T
+T2 Biological_process 23 35 polymorphism
+T3 Disease 40 51 lung cancer
+T4 MENTION 60 65  C677T
+T5 Biological_process 66 78 polymorphism
+T6 Disease 109 114 NSCLC
+E1 Biological_process:T2 Product:T1
+E2 Biological_process:T5 Product:T1
+A1 MutantAttribute T1 mutant
+R1 Coreference Arg1:T4 Arg2:T1
+~~~ 
 
 
 Arguments:
