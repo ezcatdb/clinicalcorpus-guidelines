@@ -94,7 +94,7 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
 - parietal pleura
 
 
-The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>（循環器）.
+The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>（循環器系）.
 
 - aorta （大動脈）
   - ascending aorta
