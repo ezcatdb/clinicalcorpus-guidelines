@@ -15,9 +15,9 @@ This entity may be based on the following ontology databases:
 - <a href="https://www.ebi.ac.uk/ols/search?ontology=ncit">NCIT</a>
 
 Regarding the organ, such as lung, the following words/phrases can also be annotated.
-- <a href="https://en.wikipedia.org/wiki/Respiratory_system">respiratory system</a>
+- <a href="https://en.wikipedia.org/wiki/Respiratory_system">respiratory system</a>（呼吸器系）
 - respiratory apparatus 
-- ventilatory system
+- ventilatory system（呼吸器系）
   - right lung
   - left lung
   - main bronchi
@@ -77,8 +77,8 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
 
 - blood
 - serum
-- <a href="https://en.wikipedia.org/wiki/Pulmonary_alveolus">pulmonary alveolus</a>
-- pulmonary alveoli
+- <a href="https://en.wikipedia.org/wiki/Pulmonary_alveolus">pulmonary alveolus</a>（肺胞）
+- pulmonary alveoli（肺胞）
   - alveoli
   - atrium
   - pulmonary artery
@@ -90,19 +90,19 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
   - mucous gland
   - mucosal lining
 
-- <a href="https://en.wikipedia.org/wiki/Pulmonary_pleurae">pulmonary pleurae</a>
+- <a href="https://en.wikipedia.org/wiki/Pulmonary_pleurae">pulmonary pleurae</a>（胸膜）
 - parietal pleura
 
 
-The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>.
+The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>（循環器）.
 
-- aorta
+- aorta （大動脈）
   - ascending aorta
   - descending aorta
-- artery
+- artery（動脈）
 - 'vena cava' or 'venae cavae'
   - inferior vena cava
   - superior vena cava
-- vein
+- vein（静脈）
 
 <!-- details -->

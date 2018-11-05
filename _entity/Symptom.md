@@ -60,6 +60,17 @@ T3 Symptom 41 56 fatal condition
 R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~
 
+<div style="background-color: yellow" markdown="2">
+Regarding the image observation, the following phrases can be 'Symptom':
+- ground glass
+- ground-glass
+- ground glass opacity
+- ground-grass opacity
+- ground glass opacification
+- ground-glass opacification
+
+</div>
+
 <div style="background-color: yellow" markdown="1">
 The following phrases are suspended for the time being, although they contain the words such as 'dysfunction' or 'syndrome'.
 
