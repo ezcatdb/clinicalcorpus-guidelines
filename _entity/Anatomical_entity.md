@@ -91,7 +91,7 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
   - mucosal lining
 
 - <a href="https://en.wikipedia.org/wiki/Pulmonary_pleurae">pulmonary pleurae</a>（胸膜）
-- parietal pleura
+  - parietal pleura
 
 
 The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>（循環器系）.
@@ -99,10 +99,13 @@ The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/C
 - aorta （大動脈）
   - ascending aorta
   - descending aorta
-- artery（動脈）
-- 'vena cava' or 'venae cavae'
+- 'vena cava' or 'venae cavae'（大静脈）
   - inferior vena cava
   - superior vena cava
+- artery（動脈）
+  - pulmonary artery
+  - coronary artery
 - vein（静脈）
+  - pulmonary vein
 
 <!-- details -->

@@ -62,6 +62,7 @@ R1 is_equivalent Arg1:T2 Arg2:T1
 
 <div style="background-color: yellow" markdown="1">
 Regarding the image observation, the following phrases can be 'Symptom':
+
 - ground glass
 - ground-glass
 - ground glass opacity
