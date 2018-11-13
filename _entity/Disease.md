@@ -58,7 +58,7 @@ The following words/phrases should be annotated as 'Disease'.
 </div>
 
 <div style="background-color: yellow" markdown="1">
-Some disease names start with 'AE (acute exacerbation)'. Although the following words/phrases are neither in ICD-10 nor in ICD-11, they can also be disease entities as they are widely used as disease names:
+Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, they are annotated as event:
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
@@ -66,12 +66,11 @@ Some disease names start with 'AE (acute exacerbation)'. Although the following 
 
 ~~~ ann
 The pathogenesis of acute exacerbations of idiopathic pulmonary fibrosis (AE-IPF)
-T1 Disease 20 72 acute exacerbations of idiopathic pulmonary fibrosis
+T1 Change 20 39 acute exacerbations
 T2 Disease 43 72 idiopathic pulmonary fibrosis
-T3 Disease 74 80 AE-IPF
 T4 Disease 77 80 IPF
-R1 is_equivalent arg1:T3 arg2:T1
-R2 is_equivalent arg1:T4 arg2:T2
+E1 Change:T1 disorder:T2
+R1 is_equivalent arg1:T4 arg2:T2
 ~~~
 
 
@@ -85,9 +84,16 @@ The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs 
 
 </div>
 
-The following words, which indicate the ambiguous degree/state of disease, are currently excluded from this entity, although they should be considered.
+The following words, which indicate the ambiguous degree/state of disease, are also included in this entity.
 - advanced
 - severe
+
+~~~ ann
+Patients with advanced IPF
+T1 Subject 0 8 Patients
+T2 Disease 14 26 advanced IPF
+R1 Subject_Disorder arg1:T1 arg2:T2
+~~~
 
 Currently, the following words/phrases for stage of disease are tentatively annotated as [Entity Property]().
 - stage I
