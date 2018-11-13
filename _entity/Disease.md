@@ -58,7 +58,7 @@ The following words/phrases should be annotated as 'Disease'.
 </div>
 
 <div style="background-color: yellow" markdown="1">
-Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, they are annotated as event:
+Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, [Disease]() and [Symptom](), they are annotated as event:
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
@@ -68,9 +68,12 @@ Some disease names start with 'AE (acute exacerbation)'. As these words suggest 
 The pathogenesis of acute exacerbations of idiopathic pulmonary fibrosis (AE-IPF)
 T1 Change 20 39 acute exacerbations
 T2 Disease 43 72 idiopathic pulmonary fibrosis
+T3 Change 74 76 AE
 T4 Disease 77 80 IPF
 E1 Change:T1 disorder:T2
+E2 Change:T3 disorder:T4
 R1 is_equivalent arg1:T4 arg2:T2
+R2 is_equivalent arg1:T3 arg2:T1
 ~~~
 
 
