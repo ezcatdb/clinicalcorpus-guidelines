@@ -43,6 +43,7 @@ The following words/phrases should be annotated as 'Disease'.
 | chronic obstructive pulmonary disease | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
 | COPD | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
 | acute exacerbation of chronic obstructive pulmonary disease | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
+| AECOPD | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
 | bronchiolitis obliterans (syndrome) | J44.8 | Other specified chronic obstructive pulmonary disease  | CA26.Z | Chronic bronchiolitis, unspecified |
 | idiopathic pulmonary fibrosis | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | IPF | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
@@ -52,7 +53,6 @@ The following words/phrases should be annotated as 'Disease'.
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
 | pleural effusion | - | - | CB27 | Pleural effusion |
-| AECOPD | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
 
 
 </div>
