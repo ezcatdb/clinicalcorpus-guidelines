@@ -65,8 +65,11 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 - [Value](): {% assign i = site.entity | where_exp:"i", "i.title == 'Value'" | first %}{{ i.shortdef }}
   - [Dose](): {% assign i = site.entity | where_exp:"i", "i.title == 'Dose'" | first %}{{ i.shortdef }}
+
+<!--
   - [Period](): {% assign i = site.entity | where_exp:"i", "i.title == 'Period'" | first %}{{ i.shortdef }}
   - [Frequency](): {% assign i = site.entity | where_exp:"i", "i.title == 'Frequency'" | first %}{{ i.shortdef }}
+-->
 
 - [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
 
@@ -96,20 +99,23 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 ## Events
 - [Diagnosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
 - [Medical treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
+
+<!--
   - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Medication'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
+-->
 
 <!---
 - [Effect by treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effect by treatment'" | first %}{{ i.shortdef }}
 --->
 
-- [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
-- [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
+- [Prognosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Prognosis'" | first %}{{ i.shortdef }}
+  - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
+  - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
 <!---
---->
-
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
+--->
 
 <!---
 {% assign sorted = site.event | sort: 'order' %}
@@ -129,9 +135,13 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 - [Negated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negated'" | first %}{{ i.shortdef }}
 - [Speculated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculated'" | first %}{{ i.shortdef }}
+
+<!--
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty'" | first %}{{ i.shortdef }}
+
 - [Gender_sbjct](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Gender_sbjct'" | first %}{{ i.shortdef }}
 - [MutantAttribute](): {% assign i = site.attribute | where_exp:"i", "i.title == 'MutantAttribute'" | first %}{{ i.shortdef }}
+-->
 
 <!--
 {% assign sorted = site.attribute | sort: 'order' %}
