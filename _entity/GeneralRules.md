@@ -11,9 +11,12 @@ The top ranking of the priority for entities are as follows:
 - [Anatomical_entity]()
 - [Subject]() (without ontology DB)
 - [Pharmacological_substance]()
+
+<!--
 - [Measurement]()
 - [Cell]()
 - [Protein_molecule]() (as biomarker)
+-->
 
 There are general rules for entities, as follows:
 
