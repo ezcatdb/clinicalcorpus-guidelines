@@ -125,11 +125,15 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 --->
 
 ## Relations
+- [is_equivalent](): {% assign i = site.relation | where_exp:"i", "i.title == 'is_equivalent'" | first %}{{ i.shortdef }}
+- [Subject_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Subject_Disorder'" | first %}{{ i.shortdef }}
 
+<!--
 {% assign sorted = site.relation | sort: 'order' %}
 {% for i in sorted %}
 - [{{ i.title }}]({{ i.url | remove_first:'/' }}){% if i.shortdef %}: {{ i.shortdef }}{% endif %}
 {% endfor %}
+-->
 
 ## Attributes
 
