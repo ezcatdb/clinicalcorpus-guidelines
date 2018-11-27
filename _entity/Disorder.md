@@ -6,11 +6,15 @@ order: 2
 ---
 
 The definition of 'Disease' is based on the Semantic types of 
-'dsyn' Disease or Syndrome,
-'neop' Neoplastic Process, 
-'patf' Pathologic Function, and
-'sosy' Sign or Symptom 
-in the UMLS database.
+'dsyn' (Disease or Syndrome),
+'neop' (Neoplastic Process), 
+'patf' (Pathologic Function), and
+'sosy' (Sign or Symptom) 
+in the 
+<a href="https://www.nlm.nih.gov/research/umls/">
+UMLS database
+</a>
+.
 
 <!--
  <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> published by WHO,
@@ -38,7 +42,7 @@ R2 Event_Disorder Arg1:T2 Arg2:T3
 ~~~
 
 
-The following words/phrases should be annotated as 'Disease'.
+The following words/phrases should be annotated as 'Disorder'.
 
 <div style="margin:1em" markdown="1">
 
@@ -62,12 +66,14 @@ The following words/phrases should be annotated as 'Disease'.
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
 | pleural effusion | - | - | CB27 | Pleural effusion |
+| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
+| allodynia | - | - | MB40.1 | Allodynia |
 
 
 </div>
 
 <div style="background-color: yellow" markdown="1">
-Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, [Disorder](), they are annotated as event entity:
+Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, 'Disorder', they are annotated as event entity:
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
@@ -99,7 +105,7 @@ The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs 
 
 
 
-'Symptom', which can be a group in phenotype, will be annotated in this category. 
+Symptoms, which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Disorder'.
 
 - breathing disorder
