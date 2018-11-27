@@ -8,10 +8,13 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 ## entities
 - [Phenotype](): {% assign i = site.entity | where_exp:"i", "i.title == 'Phenotype'" | first %}{{ i.shortdef }}
+  - [Disorder](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disorder'" | first %}{{ i.shortdef }}
+
+<!--
   - [Disease](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disease'" | first %}{{ i.shortdef }}
   - [Symptom](): {% assign i = site.entity | where_exp:"i", "i.title == 'Symptom'" | first %}{{ i.shortdef }}
 
-<!--
+
   - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
 -->
 
@@ -96,24 +99,33 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 {% endfor %}
 --->
 
-## Events
+## Events entities
+- [Diagnosis](): {% assign i = site.entity | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
+- [Medical treatment](): {% assign i = site.entity | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
+
+<!--
 - [Diagnosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
 - [Medical treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
 
-<!--
   - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Medication'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
 -->
+
 
 <!---
 - [Effect by treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effect by treatment'" | first %}{{ i.shortdef }}
 --->
 
+- [Prognosis](): {% assign i = site.entity | where_exp:"i", "i.title == 'Prognosis'" | first %}{{ i.shortdef }}
+  - [Potential_therapeutic_effect](): {% assign i = site.entity | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
+  - [Adverse Effect](): {% assign i = site.entity | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
+
+<!---
 - [Prognosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Prognosis'" | first %}{{ i.shortdef }}
   - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
   - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
 
-<!---
+
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
 --->
 
@@ -127,6 +139,10 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 ## Relations
 - [is_equivalent](): {% assign i = site.relation | where_exp:"i", "i.title == 'is_equivalent'" | first %}{{ i.shortdef }}
 - [Subject_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Subject_Disorder'" | first %}{{ i.shortdef }}
+- [Event_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Disorder'" | first %}{{ i.shortdef }}
+- [Event_Location](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Location'" | first %}{{ i.shortdef }}
+- [Event_Cue](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Cue'" | first %}{{ i.shortdef }}
+- [Cause_Effect](): {% assign i = site.relation | where_exp:"i", "i.title == 'Cause_Effect'" | first %}{{ i.shortdef }}
 
 <!--
 {% assign sorted = site.relation | sort: 'order' %}
@@ -139,6 +155,7 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 - [Negated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negated'" | first %}{{ i.shortdef }}
 - [Speculated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculated'" | first %}{{ i.shortdef }}
+
 
 <!--
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty'" | first %}{{ i.shortdef }}
