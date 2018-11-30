@@ -10,6 +10,7 @@ The definition of 'Disorder' is based on the Semantic types of
 - 'neop' (Neoplastic Process), 
 - 'patf' (Pathologic Function), and
 - 'sosy' (Sign or Symptom) 
+
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 <!--
