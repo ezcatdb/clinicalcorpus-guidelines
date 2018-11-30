@@ -5,16 +5,12 @@ shortdef: "Disorders"
 order: 2
 ---
 
-The definition of 'Disease' is based on the Semantic types of 
-'dsyn' (Disease or Syndrome),
-'neop' (Neoplastic Process), 
-'patf' (Pathologic Function), and
-'sosy' (Sign or Symptom) 
-in the 
-<a href="https://www.nlm.nih.gov/research/umls/">
-UMLS database
-</a>
-.
+The definition of 'Disorder' is based on the Semantic types of 
+-'dsyn' (Disease or Syndrome),
+-'neop' (Neoplastic Process), 
+-'patf' (Pathologic Function), and
+-'sosy' (Sign or Symptom) 
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 <!--
  <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> published by WHO,
