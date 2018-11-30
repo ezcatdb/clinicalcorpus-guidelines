@@ -15,7 +15,6 @@ The definition of 'Anatomical_entity' is based on the Semantic types of
 - 'bpoc' (Body Part, Organ, or Organ Component),
 - 'bsoj' (Body Space or Junction), and 
 - 'tisu' (Tissue)
-
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 <!--
