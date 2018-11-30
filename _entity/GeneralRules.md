@@ -8,7 +8,7 @@ order: 0
 The top ranking of the priority for entities are as follows:
 - [Disorder]()
 - [Anatomical_entity]()
-- [Subject]() (without ontology DB)
+- [Subject]()
 - [Pharmacological_substance]()
 
 <!--
@@ -21,7 +21,7 @@ The top ranking of the priority for entities are as follows:
 
 There are general rules for entities, as follows:
 
- - Articles, such as "a", "an" and "the", are not included in the entities.
+ - Usually, articles, such as "a", "an" and "the", should not be included in the entities.
  
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
