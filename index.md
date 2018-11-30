@@ -139,8 +139,12 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 - [is_equivalent](): {% assign i = site.relation | where_exp:"i", "i.title == 'is_equivalent'" | first %}{{ i.shortdef }}
 - [Subject_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Subject_Disorder'" | first %}{{ i.shortdef }}
 - [Event_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Disorder'" | first %}{{ i.shortdef }}
+- [Event_Agent](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Agent'" | first %}{{ i.shortdef }}
 - [Event_Location](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Location'" | first %}{{ i.shortdef }}
+- [Event_fromLoc](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_fromLoc'" | first %}{{ i.shortdef }}
+- [Event_toLoc](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_toLoc'" | first %}{{ i.shortdef }}
 - [Event_Cue](): {% assign i = site.relation | where_exp:"i", "i.title == 'Event_Cue'" | first %}{{ i.shortdef }}
+
 - [Cause_Effect](): {% assign i = site.relation | where_exp:"i", "i.title == 'Cause_Effect'" | first %}{{ i.shortdef }}
 
 <!--
