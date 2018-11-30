@@ -10,11 +10,11 @@ The name of this entity group is based on <a href="https://en.wikipedia.org/wiki
 Organs, such as lung, and tissues above cells are categorized into this entity group.
 
 The definition of 'Anatomical_entity' is based on the Semantic types of 
--'anst' (Anatomical Structure),
--'ffas' (Fully Formed Anatomical Structure), 
--'bpoc' (Body Part, Organ, or Organ Component),
--'bsoj' (Body Space or Junction), and 
--'tisu' (Tissue)
+- 'anst' (Anatomical Structure),
+- 'ffas' (Fully Formed Anatomical Structure), 
+- 'bpoc' (Body Part, Organ, or Organ Component),
+- 'bsoj' (Body Space or Junction), and 
+- 'tisu' (Tissue)
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 <!--
