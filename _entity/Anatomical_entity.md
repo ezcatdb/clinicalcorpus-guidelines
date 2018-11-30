@@ -9,10 +9,20 @@ The name of this entity group is based on <a href="https://en.wikipedia.org/wiki
 
 Organs, such as lung, and tissues above cells are categorized into this entity group.
 
+The definition of 'Anatomical_entity' is based on the Semantic types of 
+-'anst' (Anatomical Structure),
+-'ffas' (Fully Formed Anatomical Structure), 
+-'bpoc' (Body Part, Organ, or Organ Component),
+-'bsoj' (Body Space or Junction), and 
+-'tisu' (Tissue)
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+
+<!--
 This entity may be based on the following ontology databases:
 - <a href="https://www.ebi.ac.uk/ols/ontologies/fma">FMA</a>
 - <a href="https://www.ebi.ac.uk/ols/ontologies/uberon">UBERON</a>
 - <a href="https://www.ebi.ac.uk/ols/search?ontology=ncit">NCIT</a>
+-->
 
 Regarding the organ, such as lung, the following words/phrases can also be annotated.
 - <a href="https://en.wikipedia.org/wiki/Respiratory_system">respiratory system</a>（呼吸器系）
