@@ -30,7 +30,7 @@ R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
-T2 Surgery 32 53 right upper lobectomy
+T2 Medical_treatment 32 53 right upper lobectomy
 T3 Disorder 58 69 lung cancer
 T5 Anatomical_entity 58 62 lung
 R1 Subject_Disorder Arg1:T1 Arg2:T3
