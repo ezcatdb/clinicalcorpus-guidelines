@@ -22,10 +22,14 @@ in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - forced vital capacity (UMLS; C3714541)
 - FVC (UMLS; C3714541)
+- % predicted forced vital capacity (UMLS; C2919678)
+- %FVC (UMLS; C2919678) 
 - total lung capacity
 - TLC
-- Diffusing capacity
+- Diffusion Capacity of the Lung for Carbon Monoxide (UMLS; C1516251)
 - DLco (UMLS; C1516251)
+- % Predicted Diffusion Capacity of the Lung for Carbon Monoxide (UMLS; C4054207)
+- %DLco (UMLS; C4054207)
 - forced expiratory volume in 1 second
 - FEV1 
 - FEV1/FVC ratio
