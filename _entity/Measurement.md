@@ -10,15 +10,24 @@ The definition of 'Measurement' for lung diseases may be mostly based on <a href
 'Measurement', which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Measurement'.
 
+The definition of 'Disorder' is based on the Semantic types of 
+- 'lbpr' (Laboratory Procedure)
+- 'lbtr' (Laboratory or Test Result)
+- 'clna' (Clinical Attribute)
+- 'diap' (Diagnostic Procedure)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+
+
 Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
-- forced vital capacity
-- FVC
+- forced vital capacity (UMLS; C3714541)
+- FVC (UMLS; C3714541)
 - total lung capacity
 - TLC
 - Diffusing capacity
-- DLCO
+- DLco (UMLS; C1516251)
 - forced expiratory volume in 1 second
-- FEV1
+- FEV1 
 - FEV1/FVC ratio
 - FEV1%
 
@@ -35,7 +44,7 @@ Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 
 ~~~ ann
 IPF patients with a forced vital capacity (FVC) of 50-80%.
-T1 Disease 0 3 IPF
+T1 Disorder 0 3 IPF
 T2 Measurement 19 41 forced vital capacity
 T3 Measurement 43 46 FVC
 T4 Value 51 57 50-80%
@@ -56,10 +65,10 @@ Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">ox
 
 
 The following words/phrases are not from Spirometry, but definitely 'Measurement'.
-- 6-min walk distance
-- 6MWD
-- 6-min walk test
-- 6MWT
+- 6-min walk distance (UMLS; C4055399)
+- 6MWD (UMLS; C4055399)
+- 6-min walk test (UMLS; C4055399)
+- 6MWT (UMLS; C4055399)
 - cardiopulmonary exercise test
 - cardiac stress test
 - cardiac diagnostic test
