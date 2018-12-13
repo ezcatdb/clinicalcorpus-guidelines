@@ -53,6 +53,7 @@ T3 Diagnosis 17 26 diagnosed
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
 T7 Biological_process 33 43 metastases
+T8 Biological_process 33 43 metastases
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 R2 Event_Disorder Arg1:T3 Arg2:T4
 R3 Event_Cue Arg1:T3 Arg2:T1
