@@ -21,6 +21,7 @@ The top ranking of the priority for entities are as follows:
 
 There are general rules for entities, as follows:
  - Basically, overlaps should not be allowed, except for entities which needs coreference.
+ - General nouns should be removed from entities, unless they refer to corresponding proper nouns.
  - Usually, articles, such as "a", "an" and "the", should not be included in the entities.
  
 ~~~ ann
