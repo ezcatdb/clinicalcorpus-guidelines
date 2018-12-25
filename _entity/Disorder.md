@@ -13,6 +13,12 @@ The definition of 'Disorder' is based on the Semantic types of
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
+Moreover, those words/phrases, which have corresponding IDs in the following source databases, should be annotated for 'Disorder' entity:
+- <a href="https://meshb.nlm.nih.gov/search">Mesh (MSH)</a>  
+- <a href="https://ncim.nci.nih.gov/ncimbrowser/">NCI Metathesaurus (NCI)</a>  
+- Metathesaurus Names (MTH)
+- Consumer Health Vocabulary (CHV)
+
 <!--
  <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> published by WHO,
 although <a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> has been more widely used than ICD-11.
@@ -41,6 +47,7 @@ R2 Event_Disorder Arg1:T2 Arg2:T3
 
 The following words/phrases should be annotated as 'Disorder'.
 
+<!--
 <div style="margin:1em" markdown="1">
 
 | Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
@@ -68,6 +75,7 @@ The following words/phrases should be annotated as 'Disorder'.
 
 
 </div>
+-->
 
 <div style="background-color: yellow" markdown="1">
 Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, 'Disorder', they are annotated as event entity:
