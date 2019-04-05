@@ -12,8 +12,9 @@ This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> datab
 -->
 
 The definition of 'Anatomical_entity' is based on the Semantic types of 
-- 'phsu' (Pharmacologic Substance), and
-- 'antb' (Antibiotic)
+- 'phsu' (Pharmacologic Substance)
+- 'antb' (Antibiotic), and
+- 'irda' (Indicator, Reagent, or Diagnostic Aid)
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
