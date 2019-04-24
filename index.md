@@ -39,6 +39,7 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 -->
 
 - [Cell](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell'" | first %}{{ i.shortdef }}
+
 <!--
   - [Cell_component](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_component'" | first %}{{ i.shortdef }}
 -->
@@ -66,10 +67,11 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
     - [Amino_acid_monomer](): {% assign i = site.entity | where_exp:"i", "i.title == 'Amino_acid_monomer'" | first %}{{ i.shortdef }}
 -->
 
+<!--
 - [Value](): {% assign i = site.entity | where_exp:"i", "i.title == 'Value'" | first %}{{ i.shortdef }}
   - [Dose](): {% assign i = site.entity | where_exp:"i", "i.title == 'Dose'" | first %}{{ i.shortdef }}
 
-<!--
+
   - [Period](): {% assign i = site.entity | where_exp:"i", "i.title == 'Period'" | first %}{{ i.shortdef }}
   - [Frequency](): {% assign i = site.entity | where_exp:"i", "i.title == 'Frequency'" | first %}{{ i.shortdef }}
 -->

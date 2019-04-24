@@ -77,11 +77,14 @@ T2 Medical_treatment 23 34 lung resect
 T3 Anatomical_entity 23 27 lung
 ~~~
 
+
+
+<div style="background-color: yellow" markdown="1">
 As long as this category will be annotated as an entity, the following arguments will be unnecessary.
 
 Arguments:
-<div style="background-color: yellow" markdown="1">
 The *has_subject* for this event must be [Subject]().
+
 The *disorder* for this event must be [Disorder]().
 
 </div>
