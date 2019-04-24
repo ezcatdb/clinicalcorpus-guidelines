@@ -104,9 +104,11 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 ## Events entities
 <!--
 - [Diagnosis](): {% assign i = site.entity | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
+- [Medical treatment](): {% assign i = site.entity | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
 -->
 
-- [Medical treatment](): {% assign i = site.entity | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
+- [Medical treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
+
 
 <!--
 - [Prognosis](): {% assign i = site.entity | where_exp:"i", "i.title == 'Prognosis'" | first %}{{ i.shortdef }}
@@ -116,7 +118,7 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 
 <!--
 - [Diagnosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
-- [Medical treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
+
 
   - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Medication'" | first %}{{ i.shortdef }}
   - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
