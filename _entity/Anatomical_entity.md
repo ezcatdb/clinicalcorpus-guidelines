@@ -37,6 +37,7 @@ Regarding the organ, such as lung, the following words/phrases can also be annot
   - trachea
   - diaphragm
 
+
 ~~~ ann
 Squamous cell carcinoma of the lung invaded the right main bronchus.
 T1 Disorder 0 23 Squamous cell carcinoma
@@ -44,9 +45,6 @@ T2 Cell 0 13 Squamous cell
 T3 Anatomical_entity 31 35 lung
 T4 Anatomical_entity 48 67 right main bronchus
 T5 Biological_process 36 43 invaded
-R1 Event_Agent Arg1:T5 Arg2:T1
-R2 Event_toLoc Arg1:T5 Arg2:T4
-R3 Event_fromLoc Arg1:T5 Arg2:T3
 ~~~
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
@@ -55,8 +53,6 @@ T2 Medical_treatment 32 53 right upper lobectomy
 T3 Disorder 58 69 lung cancer
 T5 Anatomical_entity 58 62 lung
 R1 Subject_Disorder Arg1:T1 Arg2:T3
-R2 Event_Disorder Arg1:T2 Arg2:T3
-R3 Event_Location Arg1:T2 Arg2:T5
 ~~~
 ~~~ ann
 The patient did not undergo lung resect.
@@ -64,8 +60,6 @@ T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
 T3 Medical_treatment 28 39 lung resect
 T4 Anatomical_entity 28 32 lung
-R1 Event_Cue Arg1:T3 Arg2:T2
-R2 Event_Location Arg1:T3 Arg2:T4
 A1 Negated T3
 ~~~
 ~~~ ann
@@ -76,11 +70,7 @@ T3 Diagnosis 17 26 diagnosed
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
 T7 Biological_process 33 43 metastases
-A1 Speculated T3
 R1 Subject_Disorder Arg1:T5 Arg2:T4
-R2 Event_Disorder Arg1:T3 Arg2:T4
-R3 Event_Cue Arg1:T3 Arg2:T1
-R4 Event_toLoc Arg1:T7 Arg2:T2
 ~~~
 
 Regarding tissues in lung, the following words/phrases can also be annotated.
