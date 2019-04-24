@@ -83,6 +83,7 @@ T3 Anatomical_entity 23 27 lung
 As long as this category will be annotated as an entity, the following arguments will be unnecessary.
 
 Arguments:
+
 The *has_subject* for this event must be [Subject]().
 
 The *disorder* for this event must be [Disorder]().
