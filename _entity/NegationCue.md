@@ -11,7 +11,7 @@ Negation words, such as "not", can be combined with event entities.
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
-T3 Surgery 28 39 lung resect
+T3 Medical_treatment 28 39 lung resect
 T4 Anatomical_entity 28 32 lung
 A1 Negated T3
 ~~~
