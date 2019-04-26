@@ -41,9 +41,7 @@ T2 Medical_treatment 32 53 right upper lobectomy
 T3 Disorder 58 69 lung cancer
 T5 Anatomical_entity 58 62 lung
 R1 Subject_Disorder Arg1:T1 Arg2:T3
-R2 Event_Disorder Arg1:T2 Arg2:T3
 ~~~
-
 
 The following words/phrases should be annotated as 'Disorder'.
 
@@ -90,8 +88,6 @@ T1 Prognosis 20 39 acute exacerbations
 T2 Disorder 43 72 idiopathic pulmonary fibrosis
 T3 Prognosis 74 76 AE
 T4 Disorder 77 80 IPF
-R1 Event_Disorder Arg1:T1 Arg2:T2
-R2 Event_Disorder Arg1:T3 Arg2:T4
 R3 is_equivalent Arg1:T4 Arg2:T2
 R4 is_equivalent Arg1:T3 Arg2:T1
 ~~~
@@ -133,9 +129,8 @@ T1 Adverse_effect 4 26 common adverse effects
 T2 Pharmacological_substance 30 38 Icotinib
 T3 Disorder 44 48 rash
 T4 Disorder 53 61 diarrhea
-R1 Event_Disorder Arg1:T1 Arg2:T3
-R2 Event_Disorder Arg1:T1 Arg2:T4
-R3 Cause_Effect Arg1:T2 Arg2:T1
+R1 Cause_Effect Arg1:T2 Arg2:T3
+R2 Cause_Effect Arg1:T2 Arg2:T4
 ~~~
 
 - fatal condition

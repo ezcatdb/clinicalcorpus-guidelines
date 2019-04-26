@@ -35,11 +35,10 @@ following phrases can be speculation cues.
 ~~~ ann
 We hypothesized that direct implantation might have led to metastasis.
 T1 Speculation_cue 3 15 hypothesized
-T2 Surgery 21 40 direct implantation
+T2 Medical_treatment 21 40 direct implantation
 T3 Speculation_cue 41 46 might
 T4 Adverse_effect 52 58 led to
-T5 Disease 59 69 metastasis
-E1 Surgery:T2 
-E2 Adverse_effect:T4 has_agent:E1 affects:T5 cue:T3 cue2:T1 
-A1 Speculated E2
+T5 Disorder 59 69 metastasis
+A1 Speculated T4
+R1 Cause_Effect Arg1:T2 Arg2:T5
 ~~~
