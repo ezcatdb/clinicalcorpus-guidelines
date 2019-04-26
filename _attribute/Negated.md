@@ -5,18 +5,21 @@ shortdef: "Negation for Events"
 order: 0
 ---
 
-The attribute for 'Negated' is for event triggers that are negated.
+The attribute for 'Negated' is for event entities that are negated.
 
-In the following case, the event trigger, which is combined with the Negation Cue, is negated, and indicated with a cross:
+In the following case, the event entities, which is along with the Negation Cue, is negated, and indicated with a cross:
+
+
 ~~~ ann
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
-T3 Surgery 28 39 lung resect
+T3 Medical_treatment 28 39 lung resect
 T4 Anatomical_entity 28 32 lung
-E1 Surgery:T3 has_subject:T1 occurs_at:T4 has_cue:T2
-A1 Negated E1
+A1 Negated T3
 ~~~
+
+The entities themselves can be negated, without any negation cue, in the case of the words such as "dysfunction" and "untreated".
 
 <!--
 On the other hand, the event trigger itself is negated, without any negation cue, in the following case:
