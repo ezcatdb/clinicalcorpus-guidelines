@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Cause_Effect"
-shortdef: "relationships between cause and its effect"
+shortdef: "Relationships between cause and its effect"
 order: 120
 ---
 
