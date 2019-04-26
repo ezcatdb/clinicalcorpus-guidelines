@@ -30,7 +30,7 @@ Diseases and symptoms, which can be a group in phenotype, will be annotated in t
 Idiopathic pulmonary fibrosis (IPF) is a fatal condition. 
 T1 Disorder 0 29 Idiopathic pulmonary fibrosis
 T2 Disorder 31 34 IPF
-T3 Phenotype 41 56 fatal condition
+T3 Disorder 41 56 fatal condition
 R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~
 

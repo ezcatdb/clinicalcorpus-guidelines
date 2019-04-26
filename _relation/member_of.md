@@ -16,5 +16,5 @@ R1 member_of Arg1:T2 Arg2:T1
 R2 member_of Arg1:T3 Arg2:T1
 ~~~
 
-This relation can be used to describe the relationships between events.
+This relation can also be used to describe the relationships between event entities.
 
