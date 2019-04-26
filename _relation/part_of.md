@@ -17,7 +17,7 @@ T3 Cell_component 24 36 mitochondria
 T4 Cell 45 61 epithelial cells
 T5 Anatomical_entity 40 44 lung
 R1 part_of Arg1:T3 Arg2:T4
-R1 part_of Arg1:T4 Arg2:T5
+R2 part_of Arg1:T4 Arg2:T5
 ~~~
 
 <!---
