@@ -12,6 +12,8 @@ The following words/phrases can be annotated as 'Phenotype'.
 - survival
   - progression-free survival
   - PFS
+- quality of life
+  - QOL
 
 ~~~ ann
 The impact of IPF-related sleep breathing disorders (SBDs) on survival.
