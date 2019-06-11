@@ -7,7 +7,7 @@ order: 109
 
 This cue indicates the types of studies/tests to identify/diagnose diseases or conditions. 
 
-- ***(experimental/computational)*** analyses/tests 
+- ***(experimental/diagnostic)*** analyses/tests 
 
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
@@ -30,3 +30,6 @@ More concrete keywords for the cue are as follows:
 - PET-CT
 - PET/CT
 - chest X-ray
+
+The following ones should be considered in future:
+- small study
