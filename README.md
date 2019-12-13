@@ -1,5 +1,7 @@
-# Guidelines for text-annotation of enzyme-reaction related literature
+# Guidelines for text-annotation to create clinical corpus for PRISM project
 
-Cloned from <https://ezcatdb.github.io/Enzyme-guidelines>
+This site is cloned from <https://ezcatdb.github.io/Enzyme-guidelines>
+
+To edit the guideline, please view the following site:
 
 <https://ezcatdb.github.io/clinicalcorpus-guidelines>
