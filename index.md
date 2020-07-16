@@ -155,9 +155,10 @@ title: Annotation Guidelines for Clinical Corpus of lung diseases
 -->
 
 - [Subject_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Subject_Disorder'" | first %}{{ i.shortdef }}
-- [Cause_Effect](): {% assign i = site.relation | where_exp:"i", "i.title == 'Cause_Effect'" | first %}{{ i.shortdef }}
+- [Disorder_association](): {% assign i = site.relation | where_exp:"i", "i.title == 'Disorder_association'" | first %}{{ i.shortdef }}
 
 <!--
+- [Cause_Effect](): {% assign i = site.relation | where_exp:"i", "i.title == 'Cause_Effect'" | first %}{{ i.shortdef }}
 {% assign sorted = site.relation | sort: 'order' %}
 {% for i in sorted %}
 - [{{ i.title }}]({{ i.url | remove_first:'/' }}){% if i.shortdef %}: {{ i.shortdef }}{% endif %}
