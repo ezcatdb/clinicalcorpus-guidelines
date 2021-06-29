@@ -73,7 +73,7 @@ T7 Biological_process 33 43 metastases
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
 
-Regarding tissues in lung, the following words/phrases can also be annotated.
+Regarding the tissues in the lung, the following words/phrases can also be annotated.
 
 - blood
 - serum
@@ -92,7 +92,7 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
 
 - <a href="https://en.wikipedia.org/wiki/Pulmonary_pleurae">pulmonary pleurae</a>（胸膜）
   - parietal pleura
-
+- bronchoalveolar lavage [fluid] (BAL)
 
 The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>（循環器系）.
 
